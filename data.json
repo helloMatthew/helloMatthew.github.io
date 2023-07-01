@@ -1,5 +1,18 @@
 [
   {
+    "id": 12,
+    "byline": "PL",
+    "headline":
+      "Big pharma attempts to out bid actual farmers in latest crop wars",
+    "lead": "Preset Loop. Audio Samples for Music Makers. Full Stack: React, PHP API",
+    "link": "https://presetloop.com/",
+    "style": "sat",
+    "image": "https://org.olk1.com/picz/1688220126.png",
+    "alt": "Preset Loop",
+    "repo": "repo",
+    "repoLink": "https://github.com/presetloop"
+  },
+  {
     "id": 11,
     "byline": "MVM",
     "headline":
