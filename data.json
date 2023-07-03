@@ -4,7 +4,7 @@
     "byline": "PL",
     "headline":
       "Big pharma attempts to out bid actual farmers in latest crop wars",
-    "lead": "Preset Loop. Audio Samples for Music Makers. Full Stack: React, PHP API",
+    "lead": "Full Stack: React, PHP API. Industry Platform providing Audio Samples for Music Makers.",
     "link": "https://presetloop.com/",
     "style": "sat",
     "image": "https://org.olk1.com/picz/1688220126.png",
@@ -17,7 +17,7 @@
     "byline": "MVM",
     "headline":
       "Invisible person spotted out walking dog after curfew imposed on invisible people",
-    "lead": "Full Stack API and Catalogue Resource showcasing metrics, album and track search, style Guide and documentation, plus a dynamic data table providing a detailed view of composer and recording artist Matthew Via Music's oeuvre. Pixel art animations add flare to each track card call to action.",
+    "lead": "Full Stack: React, Node API and Catalogue Resource showcasing metrics, album and track search, style Guide and documentation, plus a dynamic data table providing a detailed view of composer and recording artist Matthew Via Music's oeuvre. Pixel art animations add flare to each track card call to action.",
     "link": "https://matthewviamusic.com",
     "style": "satHigh",
     "image": "https://olk1.com/mvm_article_images/mvm.png",
@@ -29,7 +29,7 @@
     "id": 10,
     "byline": "TDG",
     "headline": "City on the edge of destruction fights back with yodeling",
-    "lead": "Mixed orientation smooth locomotive scrolling creates a guided user flow. A monochromatic stylised palette with bold architectural images provides an engaging user experience.",
+    "lead": "GSAP. Mixed orientation smooth locomotive scrolling creates a guided user flow. A monochromatic stylised palette with bold architectural images provides an engaging user experience.",
     "link": "https://the-development-group.github.io/",
     "style": "brit",
     "image": "https://olk1.com/mvm_article_images/tdg.png",
@@ -42,7 +42,7 @@
     "byline": "Messi",
     "headline":
       "Students attending ivy league colleges will soon be banned from sharpening pencils according to new academic guidelines.",
-    "lead": "Responsive sortable data table.",
+    "lead": "Typescript. Responsive sortable data table.",
     "link": "https://username-matthew.github.io/responsive-sortable-data-table/",
     "style": "sat",
     "image": "https://org.olk1.com/picz/1670966955.png",
