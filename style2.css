@@ -14,7 +14,7 @@ html{
   scrollbar-width: none;
 }
 body {
-  padding: 1.5rem 2rem;
+  padding: 0rem 2.5rem;
   font-family: sans-serif;
   background: #f8f8f8;
   color: var(--red);
@@ -22,6 +22,9 @@ body {
 .container {
   max-width: 1100px;
   margin: 0 auto;
+}
+.header{
+  user-select: none;
 }
 header:hover a.spotify{
   color: #c62c2c;
@@ -37,7 +40,7 @@ header:hover .occupation{
 header {
   font-family: monospace;
   display: grid;
-  margin-bottom: 1.5rem;
+  margin: 1.8rem .44rem;
 }
 a {
   cursor: pointer;
@@ -52,15 +55,18 @@ a, a:visited {
   justify-content: space-between;
 }
 .social{
-  display: flex;
+  display: none;
   flex-direction: row;
 }
 .socials img{
-  display: inline-block;
-  width: 35px;
+  display: none;
+  width: 50px;
   height: auto;
   border: 1px solid rgba(0,0,0,.01);
   border-radius: 50px;
+}
+.social a img{
+  width: 50px;
 }
 h1 {
   margin-top: -2px;

@@ -17,16 +17,24 @@
     <script src="app.js" type="module"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container contentAni">
       <header>
         <div class="header">
-          <div>
-            <p class="occupation">Full Stack <span onclick="toggleTheme()"> Developer </span></p>
-          <h1>Username Matthew</h1>
+          <div onclick="toggleTheme()" class="occupation">
+            <h1 class="target-element">Username Matthew</h1>
+            <p onmouseover="changeStyle()">Designer-Developer</p>
           </div>
           
           <div class="socials">
-            <a href="https://github.com/username-matthew" target="_blank"><img id="github" src="/github.svg" alt="github"></a>
+            <a href="https://username-matthew.github.io/blog" target="_blank">
+              <img id="blog" src="/ideas.svg" alt="blog">
+            </a>
+            <a href="https://github.com/username-matthew" target="_blank">
+              <img id="github" src="/github.svg" alt="github">
+            </a>
+            <a href="mailto:unamematthew@gmail.com">
+              <img id="email" src="/email.svg" alt="email">
+            </a>
           </div>
 
         </div>
@@ -34,7 +42,7 @@
       <div id="wrapper"></div>
 
       <div class="blog-link">
-        <a href="https://username-matthew.github.io/blog">&rarr; https://username-matthew.github.io/blog</a>
+        <a href="https://username-matthew.github.io/blog" target="_blank">&rarr; https://username-matthew.github.io/blog</a>
       </div>
     </div>
   </body>
@@ -48,4 +56,20 @@ function toggleTheme() {
     
     theme.getAttribute("href") == "style.css" ? theme.setAttribute("href", "style2.css") : theme.setAttribute("href", "style.css")
 }
+
+function changeStyle() {
+  var target = document.querySelector('.target-element');
+  target.classList.toggle('hovered');
+  if (target.classList.contains('hovered')) {
+    target.innerHTML = `Username Matthew &larr;`;
+  } else {
+    target.innerHTML = "Username Matthew";
+  }
+}
+
+window.addEventListener('load', function() {
+  var content = document.querySelector('.contentAni');
+  content.classList.add('fade-in-up');
+});
+
 </script>

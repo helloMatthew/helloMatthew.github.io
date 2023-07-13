@@ -19,34 +19,34 @@ body {
   padding: 0rem 2rem 2rem;
   font-family: sans-serif;
   background: #f8f8f8;
-  color: var(--red);
+  /* color: var(--red); */
 }
 .container {
   max-width: 1100px;
   margin: 0 auto;
 }
-header:hover a.spotify{
-  color: var(--red);
+.contentAni {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
 }
-header:hover .occupation span{
-  user-select: none;
-  color: var(--darkTxt);
-  cursor: pointer;
+.fade-in-up {
+  opacity: 1;
+  transform: translateY(0);
 }
-header:hover .occupation{
-  color: var(--red);
-}
-header:hover .occupation span.just_quotes{
-  display: inline-block;
-}
-header:hover .occupation span.just_quotes{
-  display: none;
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 header {
   font-family: monospace;
   display: grid;
-  margin: 1.5rem 0rem;
+  margin: 1rem 0rem;
 }
 a {
   cursor: pointer;
@@ -59,30 +59,58 @@ a, a:visited {
 .header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+.header{
+  user-select: none;
+}
+header:hover{
+  user-select: none;
+  cursor: pointer;
+}
+.occupation {
+  word-spacing: -4px;
+  margin-bottom: 3px;
+  /* color: var(--darkTxt); */
+}
+h1 {
+  margin-top: -2px;
+  font-size: 0.925rem;
+  /* color: #202020; */
+}
+
+.occupation p{
+  color: var(--red);
+}
+.occupation p:hover{
+  color: var(--powderRed);
+}
+
+.target-element {
+  color: var(--darkTxt);
+}
+.target-element.hovered {
+  color: var(--green);
+}
+
+/* header:hover .occupation span.just_quotes{
+  display: inline-block;
+}
+header:hover .occupation span.just_quotes{
+  display: none;
+} */
+
 .social{
   display: flex;
   flex-direction: row;
 }
 .socials img{
   display: inline-block;
-  width: 35px;
+  width: 30px;
+  margin-left: 10px;
   height: auto;
   border: 1px solid rgba(0,0,0,.01);
   border-radius: 50px;
-}
-h1 {
-  margin-top: -2px;
-  font-size: 0.925rem;
-  color: var(--darkTxt);
-}
-.occupation {
-  word-spacing: -4px;
-  margin-bottom: 3px;
-  color: var(--darkTxt);
-}
-.occupation span{
-  color: var(--red);
 }
 
 /*  */
@@ -190,6 +218,18 @@ img[src="#"] {
   .container {
     max-width: 1532px;
     margin: 0 auto;
+  }
+  .socials img{
+    width: 50px;
+    margin-left: 0px;
+  }
+  #blog, #github, #email{
+    filter: invert();
+    background-color: #000;
+    border: 1px dashed white;
+  }
+  #blog:hover, #github:hover, #email:hover{
+    background-color: #f7f7f7;
   }
   #wrapper {
     display: grid;
