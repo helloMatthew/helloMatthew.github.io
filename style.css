@@ -27,12 +27,12 @@ body {
 }
 .contentAni {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(-20px);
   transition: opacity 1s ease, transform 1s ease;
 }
 .fade-in-up {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0px);
 }
 @keyframes fade-in {
   from {
