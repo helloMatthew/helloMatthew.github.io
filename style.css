@@ -220,17 +220,17 @@ img[src="#"] {
     margin: 0 auto;
   }
   .socials img{
-    width: 50px;
-    margin-left: 0px;
+    width: 40px;
+    margin-left: 15px;
   }
-  #blog, #github, #email{
+  /* #blog, #github, #email{
     filter: invert();
     background-color: #000;
     border: 1px dashed white;
   }
   #blog:hover, #github:hover, #email:hover{
     background-color: #f7f7f7;
-  }
+  } */
   #wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
