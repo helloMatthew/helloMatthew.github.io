@@ -77,15 +77,15 @@
   },
   {
     "id": 6,
-    "byline": "Word",
+    "byline": "ComArt",
     "headline": "Circus valour as clowns rescue lions and bears in Transylvania",
-    "lead": "Utility application. Simply write or paste in to the text box and the total word and character count are displayed. Useful for copywriting when an article or section is word count/size dependent",
-    "link": "https://word-count.github.io/",
+    "lead": "Tools: Text, line drawing and freehand, image collage.",
+    "link": "https://computerartmaker.github.io/",
     "style": "sat",
-    "image": "https://github.com/word-count/word-count.github.io/raw/main/preview.png",
-    "alt": "Word Count",
+    "image": "https://github.com/computerartmaker/computerartmaker.github.io/raw/main/preview.png",
+    "alt": "Computer Art Maker",
     "repo": "repo",
-    "repoLink": "https://github.com/word-count/word-count.github.io"
+    "repoLink": "https://github.com/computerartmaker/computerartmaker.github.io"
   },
   {
     "id": 5,
