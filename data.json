@@ -1,5 +1,31 @@
 [
   {
+    "id": 14,
+    "byline": "30Words",
+    "headline":
+      "Systems admin walks in to 502 Bad Gateways on way home from office.",
+    "lead": "Stylish UI and a slick UX incorporating dynamic Javascript functionality. Concise copywriting and eclectic designs that respond fluidly to any device viewport.",
+    "link": "https://30words.github.io/",
+    "style": "sat",
+    "image": "https://org.olk1.com/picz/1692481337.jpg",
+    "alt": "Art easily explained",
+    "repo": "repo",
+    "repoLink": "https://github.com/30words"
+  },
+  {
+    "id": 13,
+    "byline": "PVC",
+    "headline":
+      "Smaller Countries are now attempting space travel by standing on each others shoulders",
+    "lead": "A sophisticated set of Javascript functions, combined, create a highly usable and versatile tool for image makers, photographers, artists both professional or otherwise. A 12 item grid viewable as an infinite loop presentation using keyboard shortcuts or onscreen navigation and a side by side full screen, dual comparison view, make this an excellent tool for productivity and organisation.",
+    "link": "https://picviewcompare.github.io/",
+    "style": "sat",
+    "image": "https://org.olk1.com/picz/1692482334.jpg",
+    "alt": "Image viewer tool for creatives",
+    "repo": "repo",
+    "repoLink": "https://github.com/picviewcompare"
+  },
+  {
     "id": 12,
     "byline": "PL",
     "headline":
