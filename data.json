@@ -1,6 +1,6 @@
 [
   {
-    "id": 14,
+    "id": 17,
     "byline": "30Words",
     "headline":
       "Systems admin walks in to 502 Bad Gateways on way home from office.",
@@ -13,7 +13,7 @@
     "repoLink": "https://github.com/30words"
   },
   {
-    "id": 13,
+    "id": 16,
     "byline": "PVC",
     "headline":
       "Smaller Countries are now attempting space travel by standing on each others shoulders",
@@ -26,7 +26,7 @@
     "repoLink": "https://github.com/picviewcompare"
   },
   {
-    "id": 12,
+    "id": 15,
     "byline": "PL",
     "headline":
       "Big pharma attempts to out bid actual farmers in latest crop wars",
@@ -39,7 +39,7 @@
     "repoLink": "https://github.com/presetloop"
   },
   {
-    "id": 11,
+    "id": 14,
     "byline": "MVM",
     "headline":
       "Invisible person spotted out walking dog after curfew imposed on invisible people",
@@ -52,7 +52,7 @@
     "repoLink": "https://github.com/matthewviamusic"
   },
   {
-    "id": 10,
+    "id": 13,
     "byline": "TDG",
     "headline": "City on the edge of destruction fights back with yodeling",
     "lead": "GSAP. Mixed orientation smooth locomotive scrolling creates a guided user flow. A monochromatic stylised palette with bold architectural images provides an engaging user experience.",
@@ -64,7 +64,7 @@
     "repoLink": "https://github.com/The-Development-Group/the-development-group.github.io"
   },
   {
-    "id": 9,
+    "id": 12,
     "byline": "Messi",
     "headline":
       "Students attending ivy league colleges will soon be banned from sharpening pencils according to new academic guidelines.",
@@ -78,7 +78,7 @@
   },  
 
   {
-    "id": 8,
+    "id": 11,
     "byline": "Easy",
     "headline": "Male pattern baldness, the fifth circle of hell",
     "lead": "Web development utilities suite for ultra fast prototyping, testing and production grade deployment. Includes a basic image adjustment app, colour picker, placeholder images, a favicon and more.",
@@ -90,7 +90,7 @@
     "repoLink": "https://github.com/easycss"
   },
   {
-    "id": 7,
+    "id": 10,
     "byline": "Notes",
     "headline": "Better Spent Persian bride buys kilt off Scotsman",
     "lead": "Javascript: Utility application. Write notes in your browser. So simple, so useful.",
@@ -102,7 +102,7 @@
     "repoLink": "https://github.com/browsernotes/browsernotes.github.io"
   },
   {
-    "id": 6,
+    "id": 9,
     "byline": "ComArt",
     "headline": "Circus valour as clowns rescue lions and bears in Transylvania",
     "lead": "Javascript: Tools: Text, line drawing and freehand, image collage.",
@@ -113,6 +113,36 @@
     "repo": "repo",
     "repoLink": "https://github.com/computerartmaker/computerartmaker.github.io"
   },
+  {
+    "id": 8,
+    "byline": "Claire",
+    "headline": "Celebrities go on strike as ordinary folks call themselves influencers",
+    "lead": "Elegance and usability were top priority for the client. A sophisticated navigation system was also developed which dealt with the idiosyncrasies of IOS overlays and backscroll.",
+    "link": "https://claireamblerevents.co.uk/",
+    "style": "sat",
+    "image": "https://org.olk1.com/picz/1693073655.png",
+    "alt": "Claire"
+  },
+  {
+     "id": 7,
+     "byline": "Picatso",
+     "headline": "Last week's news turns out to be tomorrows headline",
+     "lead": "The Artist's vision was the experience of visiting a gallery and the site was developed based on a comprehensive mockup. Multiple development challenges were introduced by the size and scaling of the assets in combination with the horizontal scroller.",
+     "link": "https://picatsosketch.com/",
+     "style": "sat",
+     "image": "https://org.olk1.com/picz/1693073667.png",
+     "alt": "Picats"
+   },
+  {
+    "id": 6,
+    "byline": "KMlofts",
+    "headline": "Team decides it can be spelt with an I after all",
+    "lead": "Trades showcase with design and solid UX keeping the visitor in mind as a potential customer with constant and frictionless visibility of sitemap and user flow.",
+    "link": "https://kmlofts.olk1.com/",
+    "style": "sat",
+    "image": "https://org.olk1.com/picz/1693073679.png",
+    "alt": "KM"
+  },      
   {
     "id": 5,
     "byline": "PillPo",
@@ -125,7 +155,6 @@
     "repo": "repo",
     "repoLink": "https://github.com/PillPopper/pillpopper.github.io"
   },
-  
   {
     "id": 4,
     "byline": "Codey",
