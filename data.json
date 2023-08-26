@@ -1,6 +1,6 @@
 [
   {
-    "id": 17,
+    "id": 16,
     "byline": "30Words",
     "headline":
       "Systems admin walks in to 502 Bad Gateways on way home from office.",
@@ -13,7 +13,7 @@
     "repoLink": "https://github.com/30words"
   },
   {
-    "id": 16,
+    "id": 15,
     "byline": "PVC",
     "headline":
       "Smaller Countries are now attempting space travel by standing on each others shoulders",
@@ -26,7 +26,7 @@
     "repoLink": "https://github.com/picviewcompare"
   },
   {
-    "id": 15,
+    "id": 14,
     "byline": "PL",
     "headline":
       "Big pharma attempts to out bid actual farmers in latest crop wars",
@@ -39,7 +39,7 @@
     "repoLink": "https://github.com/presetloop"
   },
   {
-    "id": 14,
+    "id": 13,
     "byline": "MVM",
     "headline":
       "Invisible person spotted out walking dog after curfew imposed on invisible people",
@@ -52,7 +52,7 @@
     "repoLink": "https://github.com/matthewviamusic"
   },
   {
-    "id": 13,
+    "id": 12,
     "byline": "TDG",
     "headline": "City on the edge of destruction fights back with yodeling",
     "lead": "GSAP. Mixed orientation smooth locomotive scrolling creates a guided user flow. A monochromatic stylised palette with bold architectural images provides an engaging user experience.",
@@ -64,7 +64,7 @@
     "repoLink": "https://github.com/The-Development-Group/the-development-group.github.io"
   },
   {
-    "id": 12,
+    "id": 11,
     "byline": "Messi",
     "headline":
       "Students attending ivy league colleges will soon be banned from sharpening pencils according to new academic guidelines.",
@@ -78,7 +78,7 @@
   },  
 
   {
-    "id": 11,
+    "id": 10,
     "byline": "Easy",
     "headline": "Male pattern baldness, the fifth circle of hell",
     "lead": "Web development utilities suite for ultra fast prototyping, testing and production grade deployment. Includes a basic image adjustment app, colour picker, placeholder images, a favicon and more.",
@@ -90,7 +90,7 @@
     "repoLink": "https://github.com/easycss"
   },
   {
-    "id": 10,
+    "id": 9,
     "byline": "Notes",
     "headline": "Better Spent Persian bride buys kilt off Scotsman",
     "lead": "Javascript: Utility application. Write notes in your browser. So simple, so useful.",
@@ -102,7 +102,7 @@
     "repoLink": "https://github.com/browsernotes/browsernotes.github.io"
   },
   {
-    "id": 9,
+    "id": 8,
     "byline": "ComArt",
     "headline": "Circus valour as clowns rescue lions and bears in Transylvania",
     "lead": "Javascript: Tools: Text, line drawing and freehand, image collage.",
@@ -114,17 +114,17 @@
     "repoLink": "https://github.com/computerartmaker/computerartmaker.github.io"
   },
   {
-    "id": 8,
+    "id": 7,
     "byline": "Claire",
-    "headline": "Celebrities go on strike as ordinary folks call themselves influencers",
-    "lead": "Elegance and usability were top priority for the client. A sophisticated navigation system was also developed which dealt with the idiosyncrasies of IOS overlays and backscroll.",
+    "headline": "Unexpected windfall flaws sky diving enthusiast weeks before take off",
+    "lead": "Elegance and usability in keeping with their brand were top priority for the client along with modern design and functionality for an improved customer experience. Includes sophisticated mobile navigation optimised for IOS mobile device quirks.",
     "link": "https://claireamblerevents.co.uk/",
     "style": "sat",
     "image": "https://org.olk1.com/picz/1693073655.png",
     "alt": "Claire"
   },
   {
-     "id": 7,
+     "id": 6,
      "byline": "Picatso",
      "headline": "Last week's news turns out to be tomorrows headline",
      "lead": "The Artist's vision was the experience of visiting a gallery and the site was developed based on a comprehensive mockup. Multiple development challenges were introduced by the size and scaling of the assets in combination with the horizontal scroller.",
@@ -134,7 +134,7 @@
      "alt": "Picats"
    },
   {
-    "id": 6,
+    "id": 5,
     "byline": "KMlofts",
     "headline": "Team decides it can be spelt with an I after all",
     "lead": "Trades showcase with design and solid UX keeping the visitor in mind as a potential customer with constant and frictionless visibility of sitemap and user flow.",
@@ -144,7 +144,7 @@
     "alt": "KM"
   },      
   {
-    "id": 5,
+    "id": 4,
     "byline": "PillPo",
     "headline": "Mars water turns to sand on second sighting",
     "lead": "Document your medication and vitamins with this handy web app. Using Service Worker API for fast caching and App store free installation. This web app can be saved to your phone's homescreen for quick access and native app like features/user experience. Includes a handy modal with helpful hints.",
@@ -156,7 +156,7 @@
     "repoLink": "https://github.com/PillPopper/pillpopper.github.io"
   },
   {
-    "id": 4,
+    "id": 3,
     "byline": "Codey",
     "headline":
       "New toffee white and dark chocolate magnum gets the deep freeze from customers.",
@@ -169,7 +169,7 @@
     "repoLink": "https://github.com/mattheweq/codesearch"
   },
   {
-    "id": 3,
+    "id": 2,
     "byline": "Py",
     "headline":"Where mixed messages matter the most and stop reading this already",
     "lead": "A series of Command line Python applications providing create, read, update and delete (CRUD) functionality with search and time calculation options.",
@@ -179,16 +179,6 @@
     "alt": "LAMP/CRUD/Auth",
     "repo": "repo",
     "repoLink": "https://github.com/commandlinepy"
-  },
-  {
-    "id": 2,
-    "byline": "Dev",
-    "headline": "Unexpected windfall flaws sky diving enthusiast weeks before take off",
-    "lead": "This site is rendered dynamically using vanilla Javascript. Check it out here: https://mattheweq.github.io/app.js",
-    "link": "/app.js",
-    "style": "brit",
-    "image": "https://org.olk1.com/picz/1688232078.png",
-    "alt": "source code"
   },
   {
     "id": 1,
