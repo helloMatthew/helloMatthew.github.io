@@ -1,6 +1,3 @@
-![Preview](./preview.png)
+`Live Project Links`
 
-[Live Site](https://mattheweq.github.io)
-
-
-
+[LIVE SITE](https://mattheweq.github.io/live-projects/)
