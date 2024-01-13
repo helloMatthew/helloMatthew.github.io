@@ -1,5 +1,3 @@
-`Live Project Links`
-
-[LIVE SITE](https://mattheweq.com/)
-
-![PREVIEW](/preview.png)
+`filter cards by tech stack or categories`
+`marker pen highlight text effect on load`
+`easter egg`

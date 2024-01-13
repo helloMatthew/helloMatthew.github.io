@@ -4,150 +4,67 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel='shortcut icon' href='eq-logo-black.jpg' type='image/x-icon' />
+  <link rel='shortcut icon' href='https://mattheweq.com/eq-logo-black.jpg' type='image/x-icon' />
   <meta property="og:title" content="Designer / Developer">
-  <meta property="og:description" content="Senior developer with over 8 years commercial experience building scalable applications using JavaScript, PHP and Python.">
-  <meta property="og:image" content="eq-logo-black.jpg">
+  <meta property="og:description" content="Senior developer working with JavaScript, PHP and Python.">
+  <meta property="og:image" content="https://mattheweq.com/eq-logo-black.jpg">
   <title>Designer / Developer</title>
-  <style>
-  body{
-    font-size: clamp(17px, 3.5vw, 20px);
-    font-family: monospace;
-    font-weight: bold;
-    margin: .75% 1.5%;
-    background: #FFF9F2;
-    color: #222;
-  }
-  a{
-    color: #403FFC;
-  }
-  a:visited{
-    color: #C689BF;
-  }
-  .container{
-    margin-bottom: 80px;
-  }
-  h1{
-  	margin: 10px 0;
-    border-bottom: 4px solid #111;
-    width: fit-content;
-  	font-size: 1.5rem;
-  }
-  h2{
-  	max-width: 680px;
-  	margin: 0px;
-  	padding: 0px;
-  	background: #ffffff55;
-  	color: #111;
-  	font-size: 1.3rem;
-  }
-  p{
-    line-height: inherit;
-    margin: 5px 0;
-  }
-  .categories{
-    rotate: -1deg;
-    font-size: 1rem;
-    background: black;
-    color: #FFF9F2;
-    width: fit-content;
-    margin-bottom: 3px;
-    text-transform: uppercase;
-  }
-  hr {
-    border-style: dashed;
-  }
-  </style>
+  <script src="./tailwindcss.min.js"></script>
+  <link rel='stylesheet' href='style.css' />
 </head>
 <body>
-<div class="container">
+<div class="fade-in mt-1 m-[1%] mb-[80px] max-w-[2000px] xl:mx-auto">
+<!--  -->
+<!--  -->
+<div class="flex justify-center my-2">
+  <input id="search-input" type="text" class="px-2 text-md font-normal placeholder:text-slate-300 outline-none" placeholder="Search" autofocus>
+</div>
+<!--  -->
+<!--  -->
+  <nav class="fade-in m-2 xl:-mb-4">
+    <div class="socials w-[225px] flex justify-between md:mt-2 lg:mt-4">
+      <a href="https://github.com/mattheweq" target="_blank">
+        <img src="https://raw.githubusercontent.com/mattheweq/icons-repo/main/github.svg">
+      </a>
 
-<a target="_blank" href="https://github.com/mattheweq">Github</a>
+      <a href="https://open.spotify.com/artist/66OsKKYin7yLMQUsZxjE91" target="_blank">
+        <img  id="spotify" src="https://raw.githubusercontent.com/mattheweq/icons-repo/main/soundwave.svg">
+      </a>
 
-<h1>Hi, I'm Matthew</h1>
+      <a href="mailto:mattheweq8@gmail.com">
+        <img src="https://raw.githubusercontent.com/mattheweq/icons-repo/main/email.svg">
+      </a>
+    </div>
+  </nav>
+<!--  -->
+<!--  -->
+  <div class="fade-in -rotate-1 -mt-1 mb-0 lg:mb-8">
 
-<h2>Senior developer with over 8 years commercial experience building scalable applications using JavaScript, PHP and Python.</h2>
+    <div id="welcome">
+      <h1 class="-mt-2 md:mt-1 xl:mt-2">
+        <a href="headlines.html">Hi, I'm Matthew</a>
+      </h1>
 
-<br />
-<div class="categories">DATA</div>
+      <div id="reset-container" class="flex justify-between">
+        <h2 class="mx-0 mt-3 sm:mt-4 max-w-[700px] leading-7 text-center">A highly skilled <span><a class="swap-text inline-block w-[105px]" href="headlines.html">Developer</a></span> with <span class="highlighted-text">over 8 years</span> commercial experience <span class="highlighted-text2">building scalable</span> web and mobile <span class="highlighted-text3">applications.</span></h2>
+      </div>
+    </div>
 
-<p><a href="https://matthewviamusic.com/api/tracks" target="_blank">Bespoke Public API Full (Node)</a></p>
-<p><a href="https://mvmapi.olk1.com/albums" target="_blank">Bespoke Public API Basic (PHP)</a></p>
-<p>&nbsp;/tracks</p>
-<p>&nbsp;/artwork</p>
+    <div class="flex justify-end :mt-0 mr-4 sm:mr-8">
+      <p id="reset" class="cursor-pointer w-fit text-sm select-none">RESET ALL</p>
+    </div>
 
-
-<br />
-<div class="categories">WEB APPS</div>
-
-<p><a target="_blank" href="https://pickviewcompare.github.io/">PickViewCompare</a></p>
-<p><a target="_blank" href="https://pillpopper.github.io/">Meds Reminder</a></p>
-<p><a target="_blank" href="https://expanderapp.github.io">Expander App</a></p>
-<p><a target="_blank" href="https://presetloop.com/">Preset Loop</a></p>
-<p><a target="_blank" href="https://matthewviamusic.com/">MvM Portal</a></p>
-<p><a target="_blank" href="https://30words.github.io/">30Words</a></p>
-
-
-<br />
-<div class="categories">STACKS</div>
-<p><a target="_blank" href="https://mvmdiscography.github.io/">Lazy Loader</a></p>
-<p><a target="_blank" href="https://mattheweq.com/inline-slider/">Inline Slider</a></p>
-<p><a target="_blank" href="https://press.olk1.com/">Wordpress / NextJS</a></p>
-<p><a target="_blank" href="https://matthew-via-music-player.github.io/">Branded Audio Player</a></p>
-<p><a target="_blank" href="https://mattheweq.com/alpine/">Alpine.js/Tailwindcss</a></p>
-<p><a target="_blank" href="https://searchmusic.github.io/">Search - Song Catalogue</a></p>
-<p><a target="_blank" href="https://matthewviamusicplayer.github.io/">API/Astro.js/Tailwind&rarr;CI/CD</a></p>
-<p><a target="_blank" href="https://mvm.olk1.com/">Next/TS Static Build API Fetch</a></p>
-<p><a target="_blank" href="https://mattheweq.com/responsive-sortable-data-table/">Typescript Sortable Data Table</a></p>
-<p><a target="_blank" href="https://mattheweq.com/astron/">Astro/Tailwind/Framer Motion/MDX&rarr;CI/CD</a></p>
-
-
-<br />
-<div class="categories">BESPOKE TOOLS</div>
-
-<p><a target="_blank" href="https://colorui.github.io/">ColorUI - Test UI colour design</a></p>
-<p><a target="_blank" href="https://picviewcompare.github.io/">Picture View and Compare</a></p>
-<p><a target="_blank" href="https://computerartmaker.github.io/">Computer Art Maker</a></p>
-<p><a target="_blank" href="https://mattheweq.com/password-generator/">String Generator</a></p>
-<p><a target="_blank" href="https://browsernotes.github.io/">Browser Notes</a></p>
-<p><a target="_blank" href="https://codesearch.olk1.com/">Code Search</a></p>
-<p><a target="_blank" href="https://word-count.github.io/">Word Count</a></p>
-<p><a target="_blank" href="https://mattheweq.com/swatches/">Swatches</a></p>
-<p><a target="_blank" href="https://easycss.github.io/">EasyCSS</a></p>
-
-
-<br />
-<div class="categories">FREELANCE</div>
-
-<p><a target="_blank" href="https://kmlofts.olk1.com/">Lofts</a></p>
-<p><a target="_blank" href="https://dabdabtoot.github.io/">Dab Dab Toot</a></p>
-<p><a target="_blank" href="https://picatsosketch.com/">Pet Portraits</a></p>
-<p><a target="_blank" href="https://mvmpromokit.github.io/">MvM Promo Kit</a></p>
-<p><a target="_blank" href="https://claireamblerevents.com/">Wedding Planner</a></p>
-<p><a target="_blank" href="https://the-development-group.github.io/">Property Leasing</a></p>
-
-<br />
-<div class="categories">SIDE PROJECTS</div>
-
-<p><a target="_blank" href="https://mattheweq.com/giant-loading-spinner/">Giant Loading Spinner</a></p>
-<p><a target="_blank" href="https://mattheweq.com/page-transitions-2/">Page Transitions #2</a></p>
-<p><a target="_blank" href="https://mattheweq.com/ui-card-elements/">UI Card Elements</a></p>
-<p><a target="_blank" href="https://countdown.olk1.com/">Countdown Timer</a></p>
-<p><a target="_blank" href="https://mattheweq.com/flicker-error/">Flicker Error</a></p>
-<p><a target="_blank" href="https://mattheweq.com/jelly-bounce/">Jelly Bounce</a></p>
-<p><a target="_blank" href="https://mattheweq.com/glowatron">Glowatron</a></p>
-
-
-
-
-<br />
-<div class="categories">Profile</div>
-<p><a target="_blank" href="https://mattheweq.com/blog/">Blog</a></p>
-<p><a target="_blank" href="https://mattheweq.com/showcase">Folio</a></p>
-
-
-
-
+  </div>
+<!--  -->
+<!--  -->
+  <div id="no-search-results" class="hidden flex justify-center items-center text-center mt-[30vh]">No results. <span class="highlighted-text">Please try again.</span></div>
+<!-- ***  -->
+<!-- ***  -->
+  <div id="cards" class="mx-auto sm:mx-8 mt-4 xl:mt-[36px] 2xl:mt-[42px] gap-2 sm:gap-4 lg:gap-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5"><!-- data.json --></div>
+<!--  -->
+<!--  -->
 </div><!-- \container -->
+
+<script src="app.js"></script>
 </body>
 </html>

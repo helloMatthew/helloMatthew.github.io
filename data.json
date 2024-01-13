@@ -1,0 +1,346 @@
+[
+  {
+    "techstack": "API, Node, MySQL, NGINX",
+    "repo": "https://github.com/matthewviamusic/mvm-api",
+    "thumbnail": "api-node.jpg",
+    "url": "https://matthewviamusic.com/api/tracks",
+    "linkText": "MvM API",
+    "category": "Dev Tools"
+  },
+  {
+    "techstack": "API, PHP, Apache",
+    "repo": "...",
+    "thumbnail": "api-php.jpg",
+    "url": "https://mvmapi.olk1.com/albums",
+    "linkText": "Bespoke API (CORS)",
+    "category": "Dev Tools"
+  },
+  {
+    "techstack": "JavaScript, Modal Feature",
+    "repo": "https://github.com/pickviewcompare/pickviewcompare.github.io",
+    "thumbnail": "pvc.jpg",
+    "url": "https://pickviewcompare.github.io/",
+    "linkText": "PVC",
+    "category": "Graphic Design & Branding"
+  },
+  {
+    "techstack": "JavaScript, Service Worker",
+    "repo": "https://github.com/PillPopper/pillpopper.github.io",
+    "thumbnail": "pillpopper.jpg",
+    "url": "https://pillpopper.github.io/",
+    "linkText": "Pill Popper",
+    "category": "Hybrid App"
+  },
+  {
+    "techstack": "JavaScript",
+    "repo": "https://github.com/expanderapp/expanderapp.github.io",
+    "thumbnail": "expanderapp.jpg",
+    "url": "https://expanderapp.github.io/",
+    "linkText": "Expander App",
+    "category": "Open Source Development"
+  },
+  {
+    "techstack": "Next.js, TailwindCSS, CI/CD",
+    "repo": "...",
+    "thumbnail": "presetloop.jpg",
+    "url": "https://presetloop.com/",
+    "linkText": "Preset Loop",
+    "category": "Project Lead"
+  },
+  {
+    "techstack": "Node, Express, MySQL, NGINX",
+    "repo": "https://github.com/matthewviamusic",
+    "thumbnail": "mvm.jpg",
+    "url": "https://matthewviamusic.com/",
+    "linkText": "Matthew via Music",
+    "category": "Project Lead"
+  },
+  {
+    "techstack": "JavaScript, Nav Feature",
+    "repo": "https://github.com/30words/30words.github.io",
+    "thumbnail": "30words.jpg",
+    "url": "https://30words.github.io/",
+    "linkText": "30 Words",
+    "category": "Graphic Design & Branding"
+  },
+  {
+    "techstack": "API, JavaScript, Lazy Load",
+    "repo": "https://github.com/mvmdiscography/mvmdiscography.github.io",
+    "thumbnail": "lazy.jpg",
+    "url": "https://mvmdiscography.github.io/",
+    "linkText": "Discography",
+    "category": "Commission"
+  },
+  {
+    "techstack": "API, JavaScript",
+    "repo": "https://github.com/mattheweq/inline-slider",
+    "thumbnail": "inline-slider.jpg",
+    "url": "https://mattheweq.com/inline-slider/",
+    "linkText": "Inline Slider",
+    "category": "UX/UI"
+  },
+  {
+    "techstack": "Wordpress, WPJSON, Next.js",
+    "repo": "https://github.com/mattheweq/wp-next",
+    "thumbnail": "wordpress.jpg",
+    "url": "https://press.olk1.com/",
+    "linkText": "Mod My CMS",
+    "category": "Software Consultant"
+  },
+  {
+    "techstack": "JavaScript, Loop Feature",
+    "repo": "https://github.com/matthew-via-music-player/matthew-via-music-player.github.io",
+    "thumbnail": "player.jpg",
+    "url": "https://matthew-via-music-player.github.io/",
+    "linkText": "Bespoke Music Player",
+    "category": "Commission"
+  },
+  {
+    "techstack": "API, Alpine.js, TailwindCSS",
+    "repo": "https://github.com/mattheweq/alpine",
+    "thumbnail": "alpine.jpg",
+    "url": "https://mattheweq.com/alpine/",
+    "linkText": "Compact UX/UI",
+    "category": "Open Source Development"
+  },
+  {
+    "techstack": "API, JavaScript",
+    "repo": "https://github.com/searchmusic/searchmusic.github.io",
+    "thumbnail": "search.jpg",
+    "url": "https://searchmusic.github.io/",
+    "linkText": "Search Music Catalogue",
+    "category": "Commission"
+  },
+  {
+    "techstack": "API, Astro.js, TailwindCSS",
+    "repo": "https://github.com/matthewviamusicplayer/matthewviamusicplayer.github.io",
+    "thumbnail": "cicd.jpg",
+    "url": "https://matthewviamusicplayer.github.io/",
+    "linkText": "Static build params",
+    "category": "Open Source Development"
+  },
+  {
+    "techstack": "API, Next.js, TypeScript",
+    "repo": "https://github.com/mattheweq/m-v-m",
+    "thumbnail": "next-ts.jpg",
+    "url": "https://mvm.olk1.com/",
+    "linkText": "Static build params",
+    "category": "Open Source Development"
+  },
+  {
+    "techstack": "API, React.js, TypeScript",
+    "repo": "https://github.com/mattheweq/responsive-sortable-data-table",
+    "thumbnail": "worldcup.jpg",
+    "url": "https://mattheweq.com/responsive-sortable-data-table/",
+    "linkText": "World Cup 2022",
+    "category": "Commission"
+  },
+  {
+    "techstack": "API, Framer Motion, Chart.js",
+    "repo": "https://github.com/mattheweq/astron",
+    "thumbnail": "chart.jpg",
+    "url": "https://mattheweq.com/astron/",
+    "linkText": "Artist Dashboard",
+    "category": "Commission"
+  },
+  {
+    "techstack": "JavaScript, Err Modal Feature",
+    "repo": "https://github.com/colorui/colorui.github.io",
+    "thumbnail": "colorui.jpg",
+    "url": "https://colorui.github.io/",
+    "linkText": "ColorUI",
+    "category": "Dev Tools"
+  },
+  {
+    "techstack": "JavaScript, Dual View Feature",
+    "repo": "https://github.com/picviewcompare/picviewcompare.github.io",
+    "thumbnail": "pic-view-compare.jpg",
+    "url": "https://picviewcompare.github.io/",
+    "linkText": "Picture View & Compare",
+    "category": "Commission"
+  },
+  {
+    "techstack": "JavaScript, P5.js, Canvas",
+    "repo": "https://github.com/computerartmaker/computerartmaker.github.io",
+    "thumbnail": "computerartmaker.jpg",
+    "url": "https://computerartmaker.github.io/",
+    "linkText": "Computer Art Maker",
+    "category": "Commission"
+  },
+  {
+    "techstack": "JavaScript, Easter Egg",
+    "repo": "https://github.com/mattheweq/password-generator",
+    "thumbnail": "password-generator.jpg",
+    "url": "https://mattheweq.com/password-generator/",
+    "linkText": "Password Generator",
+    "category": "Dev Tools"
+  },
+  {
+    "techstack": "JavaScript, CRUD, Storage",
+    "repo": "https://github.com/browsernotes/browsernotes.github.io",
+    "thumbnail": "browsernotes.jpg",
+    "url": "https://browsernotes.github.io/",
+    "linkText": "Browser Notes",
+    "category": "Dev Tools"
+  },
+  {
+    "techstack": "PHP, MySQL, Apache",
+    "repo": "...",
+    "thumbnail": "codesearch.jpg",
+    "url": "https://codesearch.olk1.com/",
+    "linkText": "Code Search",
+    "category": "Dev Tools"
+  },
+  {
+    "techstack": "JavaScript, OOP, JSDocs",
+    "repo": "https://github.com/word-count/word-count.github.io",
+    "thumbnail": "wordcount.jpg",
+    "url": "https://word-count.github.io/",
+    "linkText": "Word Count",
+    "category": "Dev Tools"
+  },
+  {
+    "techstack": "JavaScript, Clipboard Feature",
+    "repo": "https://github.com/mattheweq/swatches",
+    "thumbnail": "swatches.jpg",
+    "url": "https://mattheweq.com/swatches/",
+    "linkText": "Swatches",
+    "category": "Dev Tools"
+  },
+  {
+    "techstack": "CSS, Images & Favicon Feature",
+    "repo": "https://github.com/easycss",
+    "thumbnail": "easycss.jpg",
+    "url": "https://easycss.github.io/",
+    "linkText": "EasyCSS",
+    "category": "Dev Tools"
+  },
+  {
+    "techstack": "CSS, JQUERY",
+    "repo": "...",
+    "thumbnail": "lofts.jpg",
+    "url": "https://kmlofts.olk1.com/",
+    "linkText": "Lofts",
+    "category": "Software Consultant"
+  },
+  {
+    "techstack": "CSS, P5.js",
+    "repo": "https://github.com/dabdabtoot/dabdabtoot.github.io",
+    "thumbnail": "toot.jpg",
+    "url": "https://dabdabtoot.github.io/",
+    "linkText": "Dab Dab Toot",
+    "category": "Graphic Design & Branding"
+  },
+  {
+    "techstack": "Next.js, TypeScript, TailwindCSS",
+    "repo": "...",
+    "thumbnail": "picatso.jpg",
+    "url": "https://picatsosketch.com/",
+    "linkText": "Pet Portraits",
+    "category": "Software Consultant"
+  },
+  {
+    "techstack": "JavaScript",
+    "repo": "https://github.com/mvmpromokit/mvmpromokit.github.io",
+    "thumbnail": "promokit.jpg",
+    "url": "https://mvmpromokit.github.io/",
+    "linkText": "Promo Kit",
+    "category": "Commission"
+  },
+  {
+    "techstack": "Astro.js, Nav Feature",
+    "repo": "...",
+    "thumbnail": "claire.jpg",
+    "url": "https://claireamblerevents.co.uk/",
+    "linkText": "Wedding Planner",
+    "category": "Software Consultant"
+  },
+  {
+    "techstack": "GSAP, Trigger, Locomotive Scroll",
+    "repo": "https://github.com/The-Open Source Development-Group/the-development-group.github.io",
+    "thumbnail": "tdg.jpg",
+    "url": "https://the-development-group.github.io/",
+    "linkText": "Property Leasing",
+    "category": "Software Consultant"
+  },
+  {
+    "techstack": "CSS Animation, SVG",
+    "repo": "https://github.com/mattheweq/giant-loading-spinner",
+    "thumbnail": "loading.jpg",
+    "url": "https://mattheweq.com/giant-loading-spinner/",
+    "linkText": "Giant Loading Spinner",
+    "category": "Open Source Development"
+  },
+  {
+    "techstack": "React.js, GSAP",
+    "repo": "https://github.com/mattheweq/page-transitions-2",
+    "thumbnail": "page-trans.jpg",
+    "url": "https://mattheweq.com/page-transitions-2/",
+    "linkText": "Page Transitions",
+    "category": "Open Source Development"
+  },
+  {
+    "techstack": "CSS",
+    "repo": "https://github.com/mattheweq/ui-card-elements",
+    "thumbnail": "ui-cards.jpg",
+    "url": "https://mattheweq.com/ui-card-elements/",
+    "linkText": "UI Card Elements",
+    "category": "Open Source Development"
+  },
+  {
+    "techstack": "JavaScript, CSS",
+    "repo": "...",
+    "thumbnail": "countdown.jpg",
+    "url": "https://countdown.olk1.com/",
+    "linkText": "Countdown Timer",
+    "category": "Dev Tools"
+  },
+  {
+    "techstack": "JavaScript, P5.js, Canvas",
+    "repo": "https://github.com/mattheweq/flicker-error",
+    "thumbnail": "flicker-error.jpg",
+    "url": "https://mattheweq.com/flicker-error/",
+    "linkText": "Flicker Error",
+    "category": "Graphic Design & Branding"
+  },
+  {
+    "techstack": "JavaScript, P5.js, Canvas",
+    "repo": "https://github.com/mattheweq/jelly-bounce",
+    "thumbnail": "jelly.jpg",
+    "url": "https://mattheweq.com/jelly-bounce/",
+    "linkText": "Jelly Bounce",
+    "category": "Open Source Development"
+  },
+  {
+    "techstack": "JavaScript, CSS, Canvas",
+    "repo": "https://github.com/mattheweq/glowatron",
+    "thumbnail": "glowatron.jpg",
+    "url": "https://mattheweq.com/glowatron/",
+    "linkText": "Glowatron",
+    "category": "Open Source Development"
+  },
+  {
+    "techstack": "JavaScript, CSS",
+    "repo": "...",
+    "thumbnail": "krispy.jpg",
+    "url": "https://www.krispyhouse.com/",
+    "linkText": "Krispy House",
+    "category": "Software Consultant"
+  },
+  {
+    "techstack": "JavaScript, CSS",
+    "repo": "...",
+    "thumbnail": "elbi.jpg",
+    "url": "...",
+    "linkText": "Elbi",
+    "category": "Frontend Web Developer"
+  },
+  {
+    "techstack": "JavaScript, Pixel Art",
+    "repo": "https://github.com/mattheweq/blog",
+    "thumbnail": "blog.jpg",
+    "url": "https://mattheweq.com/blog/",
+    "linkText": "Blog",
+    "category": "Graphic Design & Branding"
+  }
+]
