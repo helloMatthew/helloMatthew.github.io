@@ -127,6 +127,7 @@ function createCard(item, index) {
 
 const navElement = document.querySelector('nav');
 const welcomeElement = document.querySelector('#welcome');
+const resetButtonContainer = document.getElementById('reset-container');
 
 // FILTER LOGIC
 function addFilterEventListeners(allCards) {
@@ -136,6 +137,7 @@ function addFilterEventListeners(allCards) {
     filterAnchor.addEventListener('click', () => {
       navElement.style.display = 'block';
       welcomeElement.style.display = 'block';
+      resetButtonContainer.classList.remove('w-full');
 
       const selectedValue = filterAnchor.textContent.toLowerCase();
       const selectedType = filterAnchor.dataset.type; 
@@ -193,20 +195,20 @@ function resetCards() {
   // Re-render nav/welcome
   navElement.style.display = 'block';
   welcomeElement.style.display = 'block';
+  resetButtonContainer.classList.remove('w-full');
+
   // Hide reset button after resetting
   hideResetButton();
 }
 
 
 
-const resetButtonContainer = document.getElementById('reset-container');
 const resetButton = document.getElementById('reset');
 
 function renderResetButton() {
   resetButton.style.display = 'block';
   if(window.innerWidth < 1023){
     resetButton.classList.add('mt-4');
-    resetButtonContainer.classList.add('flex-col');
   }
 }
 
@@ -214,7 +216,6 @@ function renderResetButton() {
 
 function hideResetButton() {
   resetButton.style.display = 'none';
-  resetButtonContainer.classList.remove('flex-col');
 }
 
 
@@ -232,6 +233,13 @@ function addSearchEventListener(allCards) {
     // hide nav/welcome when the search contains min 3 keystrokes
     navElement.style.display = searchTerm.length >= 3 ? 'none' : 'block';
     welcomeElement.style.display = searchTerm.length >= 3 ? 'none' : 'block';
+
+    if(searchTerm.length >= 3){
+      resetButtonContainer.classList.add('w-full');
+    }
+    if(searchTerm.length <= 2){
+      resetButtonContainer.classList.remove('w-full');
+    }
 
     const hasResults = searchCards('search', searchTerm, allCards);
 
@@ -261,6 +269,7 @@ function addSearchEventListener(allCards) {
     if(!hasResults){
       navElement.style.display = 'block';
       welcomeElement.style.display = 'block';
+      resetButtonContainer.classList.remove('w-full');
     }
   });
 
