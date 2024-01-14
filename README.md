@@ -4,8 +4,9 @@
 
 ### Features
  - Filter cards by tech stack or categories
- - Marker pen highlight text effect on load / no search results
- - Easter eggs
  - Dynamic responsive rendering of elements when searching and filtering cards 
+ - Marker pen highlight text effect on load / no search results
+ - 10 second page reset timeout if no search results remain idle 
+ - Easter eggs
  - Vanilla JavaScript
  - TailwindCSS styling with global CSS base/feature styles
