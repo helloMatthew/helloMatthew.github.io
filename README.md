@@ -1,6 +1,6 @@
 [LIVE SITE](https://mattheweq.com/)
 
-![preview](preview.png)
+![preview](preview.jpg)
 
 ### Features
  - Filter cards by tech stack or categories
