@@ -230,34 +230,32 @@ function addSearchEventListener(allCards) {
   searchInput.addEventListener('input', () => {
     const searchTerm = searchInput.value.trim().toLowerCase();
     
-    // hide nav/welcome when the search contains min 3 keystrokes
-    navElement.style.display = searchTerm.length >= 3 ? 'none' : 'block';
-    welcomeElement.style.display = searchTerm.length >= 3 ? 'none' : 'block';
+    // hide nav/welcome when the search contains any keystrokes
+    navElement.style.display = searchTerm.length >= 1 ? 'none' : 'block';
+    welcomeElement.style.display = searchTerm.length >= 1 ? 'none' : 'block';
 
-    if(searchTerm.length >= 3){
-      resetButtonContainer.classList.add('w-full');
-    }
-    if(searchTerm.length <= 2){
-      resetButtonContainer.classList.remove('w-full');
-    }
+    searchTerm.length ? resetButtonContainer.classList.add('w-full') : resetButtonContainer.classList.remove('w-full');
 
     const hasResults = searchCards('search', searchTerm, allCards);
 
-    hasResults && renderResetButton();
+    searchInput.value.length > 0 && hasResults && renderResetButton();
 
     // Toggle the visibility of the "No Results Found" message
     noResultsFound.style.display = hasResults ? 'none' : 'block';
 
     clearTimeout(timeoutId);
 
-    // 10-second timeout on no search results then show all cards
+    // 10-second timeout on no search results then show all cards 
     timeoutId = setTimeout(() => {
 
       if(!hasResults){
         allCards.forEach(card => {
           card.style.display = 'block';
         });
-      
+      // 10-second timeout on no search results then show nav/message
+      navElement.style.display = 'block';
+      welcomeElement.style.display = 'block';
+
       // Clear the input value if no result and still focused beyond 10s
       searchInput.value = '';
       }
@@ -267,8 +265,10 @@ function addSearchEventListener(allCards) {
     
     // No search results automatically show nav/message
     if(!hasResults){
-      navElement.style.display = 'block';
-      welcomeElement.style.display = 'block';
+      if(window.innerWidth > 1023){
+        navElement.style.display = 'block';
+        welcomeElement.style.display = 'block';
+      }
       resetButtonContainer.classList.remove('w-full');
     }
   });
