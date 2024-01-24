@@ -5,7 +5,7 @@
     "thumbnail": "api-node.jpg",
     "url": "https://matthewviamusic.com/api/tracks",
     "linkText": "MvM API",
-    "category": "Dev Tools"
+    "category": "Backend Developer"
   },
   {
     "techstack": "API, PHP, Apache",
@@ -13,7 +13,39 @@
     "thumbnail": "api-php.jpg",
     "url": "https://mvmapi.olk1.com/albums",
     "linkText": "Bespoke API (CORS)",
-    "category": "Dev Tools"
+    "category": "Backend Developer"
+  },
+  {
+    "techstack": "JavaScript, Err Modal Feature",
+    "repo": "https://github.com/colorui/colorui.github.io",
+    "thumbnail": "colorui.jpg",
+    "url": "https://colorui.github.io/",
+    "linkText": "ColorUI",
+    "category": "Open Source Developer"
+  },
+  {
+    "techstack": "API, Framer Motion, Chart.js",
+    "repo": "https://github.com/mattheweq/astron",
+    "thumbnail": "chart.jpg",
+    "url": "https://mattheweq.com/astron/",
+    "linkText": "Artist Dashboard",
+    "category": "Full Stack Developer"
+  },
+  {
+    "techstack": "Next.js, TailwindCSS, CI/CD",
+    "repo": "...",
+    "thumbnail": "presetloop.jpg",
+    "url": "https://presetloop.com/",
+    "linkText": "Preset Loop",
+    "category": "Project Lead Developer"
+  },
+  {
+    "techstack": "JavaScript, CRUD, Storage",
+    "repo": "https://github.com/browsernotes/browsernotes.github.io",
+    "thumbnail": "browsernotes.jpg",
+    "url": "https://browsernotes.github.io/",
+    "linkText": "Browser Notes",
+    "category": "Open Source Developer"
   },
   {
     "techstack": "JavaScript, Modal Feature",
@@ -29,7 +61,7 @@
     "thumbnail": "pillpopper.jpg",
     "url": "https://pillpopper.github.io/",
     "linkText": "Pill Popper",
-    "category": "Hybrid App"
+    "category": "Hybrid App Developer"
   },
   {
     "techstack": "JavaScript",
@@ -37,15 +69,7 @@
     "thumbnail": "expanderapp.jpg",
     "url": "https://expanderapp.github.io/",
     "linkText": "Expander App",
-    "category": "Open Source Development"
-  },
-  {
-    "techstack": "Next.js, TailwindCSS, CI/CD",
-    "repo": "...",
-    "thumbnail": "presetloop.jpg",
-    "url": "https://presetloop.com/",
-    "linkText": "Preset Loop",
-    "category": "Project Lead"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "Node, Express, MySQL, NGINX",
@@ -53,7 +77,7 @@
     "thumbnail": "mvm.jpg",
     "url": "https://matthewviamusic.com/",
     "linkText": "Matthew via Music",
-    "category": "Project Lead"
+    "category": "Project Lead Developer"
   },
   {
     "techstack": "JavaScript, Nav Feature",
@@ -69,7 +93,7 @@
     "thumbnail": "lazy.jpg",
     "url": "https://mvmdiscography.github.io/",
     "linkText": "Discography",
-    "category": "Commission"
+    "category": "Full Stack Developer"
   },
   {
     "techstack": "API, JavaScript",
@@ -77,7 +101,7 @@
     "thumbnail": "inline-slider.jpg",
     "url": "https://mattheweq.com/inline-slider/",
     "linkText": "Inline Slider",
-    "category": "UX/UI"
+    "category": "UX/UI Developer"
   },
   {
     "techstack": "Wordpress, WPJSON, Next.js",
@@ -93,7 +117,7 @@
     "thumbnail": "player.jpg",
     "url": "https://matthew-via-music-player.github.io/",
     "linkText": "Bespoke Music Player",
-    "category": "Commission"
+    "category": "Full Stack Developer"
   },
   {
     "techstack": "API, Alpine.js, TailwindCSS",
@@ -101,7 +125,7 @@
     "thumbnail": "alpine.jpg",
     "url": "https://mattheweq.com/alpine/",
     "linkText": "Compact UX/UI",
-    "category": "Open Source Development"
+    "category": "Full Stack Developer"
   },
   {
     "techstack": "API, JavaScript",
@@ -109,7 +133,7 @@
     "thumbnail": "search.jpg",
     "url": "https://searchmusic.github.io/",
     "linkText": "Search Music Catalogue",
-    "category": "Commission"
+    "category": "Full Stack Developer"
   },
   {
     "techstack": "API, Astro.js, TailwindCSS",
@@ -117,7 +141,7 @@
     "thumbnail": "cicd.jpg",
     "url": "https://matthewviamusicplayer.github.io/",
     "linkText": "Static build params",
-    "category": "Open Source Development"
+    "category": "Full Stack Developer"
   },
   {
     "techstack": "API, Next.js, TypeScript",
@@ -125,7 +149,7 @@
     "thumbnail": "next-ts.jpg",
     "url": "https://mvm.olk1.com/",
     "linkText": "Static build params",
-    "category": "Open Source Development"
+    "category": "Full Stack Developer"
   },
   {
     "techstack": "API, React.js, TypeScript",
@@ -133,23 +157,7 @@
     "thumbnail": "worldcup.jpg",
     "url": "https://mattheweq.com/responsive-sortable-data-table/",
     "linkText": "World Cup 2022",
-    "category": "Commission"
-  },
-  {
-    "techstack": "API, Framer Motion, Chart.js",
-    "repo": "https://github.com/mattheweq/astron",
-    "thumbnail": "chart.jpg",
-    "url": "https://mattheweq.com/astron/",
-    "linkText": "Artist Dashboard",
-    "category": "Commission"
-  },
-  {
-    "techstack": "JavaScript, Err Modal Feature",
-    "repo": "https://github.com/colorui/colorui.github.io",
-    "thumbnail": "colorui.jpg",
-    "url": "https://colorui.github.io/",
-    "linkText": "ColorUI",
-    "category": "Dev Tools"
+    "category": "Software Consultant"
   },
   {
     "techstack": "JavaScript, Dual View Feature",
@@ -157,7 +165,7 @@
     "thumbnail": "pic-view-compare.jpg",
     "url": "https://picviewcompare.github.io/",
     "linkText": "Picture View & Compare",
-    "category": "Commission"
+    "category": "Software Consultant"
   },
   {
     "techstack": "JavaScript, P5.js, Canvas",
@@ -165,23 +173,23 @@
     "thumbnail": "computerartmaker.jpg",
     "url": "https://computerartmaker.github.io/",
     "linkText": "Computer Art Maker",
-    "category": "Commission"
+    "category": "Software Consultant"
   },
   {
     "techstack": "JavaScript, Easter Egg",
     "repo": "https://github.com/mattheweq/password-generator",
     "thumbnail": "password-generator.jpg",
     "url": "https://mattheweq.com/password-generator/",
-    "linkText": "Password Generator",
-    "category": "Dev Tools"
+    "linkText": "String Generator",
+    "category": "Open Source Developer"
   },
   {
-    "techstack": "JavaScript, CRUD, Storage",
-    "repo": "https://github.com/browsernotes/browsernotes.github.io",
-    "thumbnail": "browsernotes.jpg",
-    "url": "https://browsernotes.github.io/",
-    "linkText": "Browser Notes",
-    "category": "Dev Tools"
+    "techstack": "Next.js, TypeScript, TailwindCSS",
+    "repo": "...",
+    "thumbnail": "picatso.jpg",
+    "url": "https://picatsosketch.com/",
+    "linkText": "Pet Portraits",
+    "category": "Full Stack Developer"
   },
   {
     "techstack": "PHP, MySQL, Apache",
@@ -189,7 +197,7 @@
     "thumbnail": "codesearch.jpg",
     "url": "https://codesearch.olk1.com/",
     "linkText": "Code Search",
-    "category": "Dev Tools"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "JavaScript, OOP, JSDocs",
@@ -197,7 +205,7 @@
     "thumbnail": "wordcount.jpg",
     "url": "https://word-count.github.io/",
     "linkText": "Word Count",
-    "category": "Dev Tools"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "JavaScript, Clipboard Feature",
@@ -205,7 +213,7 @@
     "thumbnail": "swatches.jpg",
     "url": "https://mattheweq.com/swatches/",
     "linkText": "Swatches",
-    "category": "Dev Tools"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "CSS, Images & Favicon Feature",
@@ -213,15 +221,7 @@
     "thumbnail": "easycss.jpg",
     "url": "https://easycss.github.io/",
     "linkText": "EasyCSS",
-    "category": "Dev Tools"
-  },
-  {
-    "techstack": "CSS, JQUERY",
-    "repo": "...",
-    "thumbnail": "lofts.jpg",
-    "url": "https://kmlofts.olk1.com/",
-    "linkText": "Lofts",
-    "category": "Software Consultant"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "CSS, P5.js",
@@ -232,20 +232,12 @@
     "category": "Graphic Design & Branding"
   },
   {
-    "techstack": "Next.js, TypeScript, TailwindCSS",
-    "repo": "...",
-    "thumbnail": "picatso.jpg",
-    "url": "https://picatsosketch.com/",
-    "linkText": "Pet Portraits",
-    "category": "Software Consultant"
-  },
-  {
     "techstack": "JavaScript",
     "repo": "https://github.com/mvmpromokit/mvmpromokit.github.io",
     "thumbnail": "promokit.jpg",
     "url": "https://mvmpromokit.github.io/",
     "linkText": "Promo Kit",
-    "category": "Commission"
+    "category": "Full Stack Developer"
   },
   {
     "techstack": "Astro.js, Nav Feature",
@@ -253,11 +245,11 @@
     "thumbnail": "claire.jpg",
     "url": "https://claireamblerevents.co.uk/",
     "linkText": "Wedding Planner",
-    "category": "Software Consultant"
+    "category": "Full Stack Developer"
   },
   {
     "techstack": "GSAP, Trigger, Locomotive Scroll",
-    "repo": "https://github.com/The-Open Source Development-Group/the-development-group.github.io",
+    "repo": "https://github.com/The-Open Source Developer-Group/the-development-group.github.io",
     "thumbnail": "tdg.jpg",
     "url": "https://the-development-group.github.io/",
     "linkText": "Property Leasing",
@@ -269,7 +261,7 @@
     "thumbnail": "loading.jpg",
     "url": "https://mattheweq.com/giant-loading-spinner/",
     "linkText": "Giant Loading Spinner",
-    "category": "Open Source Development"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "React.js, GSAP",
@@ -277,7 +269,7 @@
     "thumbnail": "page-trans.jpg",
     "url": "https://mattheweq.com/page-transitions-2/",
     "linkText": "Page Transitions",
-    "category": "Open Source Development"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "CSS",
@@ -285,7 +277,7 @@
     "thumbnail": "ui-cards.jpg",
     "url": "https://mattheweq.com/ui-card-elements/",
     "linkText": "UI Card Elements",
-    "category": "Open Source Development"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "JavaScript, CSS",
@@ -293,7 +285,7 @@
     "thumbnail": "countdown.jpg",
     "url": "https://countdown.olk1.com/",
     "linkText": "Countdown Timer",
-    "category": "Dev Tools"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "JavaScript, P5.js, Canvas",
@@ -309,7 +301,7 @@
     "thumbnail": "jelly.jpg",
     "url": "https://mattheweq.com/jelly-bounce/",
     "linkText": "Jelly Bounce",
-    "category": "Open Source Development"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "JavaScript, CSS, Canvas",
@@ -317,7 +309,7 @@
     "thumbnail": "glowatron.jpg",
     "url": "https://mattheweq.com/glowatron/",
     "linkText": "Glowatron",
-    "category": "Open Source Development"
+    "category": "Open Source Developer"
   },
   {
     "techstack": "JavaScript, CSS",
@@ -334,6 +326,14 @@
     "url": "...",
     "linkText": "Elbi",
     "category": "Frontend Web Developer"
+  },
+  {
+    "techstack": "CSS, JQuery",
+    "repo": "...",
+    "thumbnail": "lofts.jpg",
+    "url": "https://kmlofts.olk1.com/",
+    "linkText": "Lofts",
+    "category": "Web Developer"
   },
   {
     "techstack": "JavaScript, Pixel Art",
