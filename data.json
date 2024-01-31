@@ -24,7 +24,7 @@
     "category": "Open Source Developer"
   },
   {
-    "techstack": "API, Framer Motion, Chart.js",
+    "techstack": "CI/CD, Framer Motion, Chart.js",
     "repo": "https://github.com/mattheweq/astron",
     "thumbnail": "chart.jpg",
     "url": "https://mattheweq.com/astron/",
@@ -86,6 +86,14 @@
     "url": "https://30words.github.io/",
     "linkText": "30 Words",
     "category": "Graphic Design & Branding"
+  },
+   {
+    "techstack": "JavaScript, Python",
+    "repo": "https://github.com/asleeptracker/asleeptracker.github.io",
+    "thumbnail": "sleeptracker.jpg",
+    "url": "https://asleeptracker.github.io/",
+    "linkText": "Sleep Tracker",
+    "category": "Open Source Developer"
   },
   {
     "techstack": "API, JavaScript, Lazy Load",
