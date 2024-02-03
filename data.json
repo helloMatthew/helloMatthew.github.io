@@ -64,12 +64,12 @@
     "category": "Hybrid App Developer"
   },
   {
-    "techstack": "JavaScript",
-    "repo": "https://github.com/expanderapp/expanderapp.github.io",
-    "thumbnail": "expanderapp.jpg",
-    "url": "https://expanderapp.github.io/",
-    "linkText": "Expander App",
-    "category": "Open Source Developer"
+    "techstack": "Vue.js, TailwindCSS",
+    "repo": "https://github.com/mattheweq/vue-fetch-api",
+    "thumbnail": "vue-fetch-api.jpg",
+    "url": "https://vue.olk1.com",
+    "linkText": "Vue Fetch API",
+    "category": "Frontend Web Developer"
   },
   {
     "techstack": "Node, Express, MySQL, NGINX",
@@ -87,12 +87,28 @@
     "linkText": "30 Words",
     "category": "Graphic Design & Branding"
   },
+  {
+    "techstack": "Wordpress, WPJSON, Next.js",
+    "repo": "https://github.com/mattheweq/wp-next",
+    "thumbnail": "wordpress.jpg",
+    "url": "https://press.olk1.com/",
+    "linkText": "Mod My CMS",
+    "category": "Software Consultant"
+  },
    {
     "techstack": "JavaScript, Python",
     "repo": "https://github.com/asleeptracker/asleeptracker.github.io",
     "thumbnail": "sleeptracker.jpg",
     "url": "https://asleeptracker.github.io/",
     "linkText": "Sleep Tracker",
+    "category": "Open Source Developer"
+  },
+  {
+    "techstack": "JavaScript",
+    "repo": "https://github.com/expanderapp/expanderapp.github.io",
+    "thumbnail": "expanderapp.jpg",
+    "url": "https://expanderapp.github.io/",
+    "linkText": "Expander App",
     "category": "Open Source Developer"
   },
   {
@@ -110,14 +126,6 @@
     "url": "https://mattheweq.com/inline-slider/",
     "linkText": "Inline Slider",
     "category": "UX/UI Developer"
-  },
-  {
-    "techstack": "Wordpress, WPJSON, Next.js",
-    "repo": "https://github.com/mattheweq/wp-next",
-    "thumbnail": "wordpress.jpg",
-    "url": "https://press.olk1.com/",
-    "linkText": "Mod My CMS",
-    "category": "Software Consultant"
   },
   {
     "techstack": "JavaScript, Loop Feature",
