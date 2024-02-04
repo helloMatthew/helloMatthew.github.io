@@ -115,7 +115,7 @@ function createCard(item, index) {
   void card.offsetWidth;
 
   // Onload animation (increase card scale)
-  card.classList.add('fade-in', 'scale-105', 'transform', 'transition-transform', 'duration-500', `delay-${index * 100}`);
+  card.classList.add('fade-in', 'max-w-[400px]', 'scale-105', 'transform', 'transition-transform', 'duration-500', `delay-${index * 100}`);
 
   setTimeout(() => {
     // Reset card scale after 3 seconds

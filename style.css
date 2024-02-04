@@ -57,9 +57,7 @@ body{
   width: 60px;
   margin: -10px 5px 0;
 }
-#cards{
-  transition: height 5s ease-in-out;
-}
+
 /* Hi, I'm Matthew */
 h1{
   margin: 2px;
@@ -140,3 +138,47 @@ h1:hover{
 #cards, #reset{
   font-family: monospace;
 }
+#cards{
+  margin: 0 auto;
+  gap: 0.5rem;
+  transition: height 5s ease-in-out;
+}
+
+@media screen and (min-width: 500px){
+#cards{
+  gap: 1rem;
+  margin-top: 1rem;
+ }
+}
+@media screen and (min-width: 840px){
+  #cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 1rem;
+    margin-right: 1rem;
+  } 
+}
+@media screen and (min-width: 1280px){
+  #cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 2rem;
+    margin-right: 2rem;
+  } 
+}
+@media screen and (min-width: 1580px){
+  #cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 36px;
+  } 
+}
+@media screen and (min-width: 2000px){
+  #cards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 42px;
+  } 
+}
+
+
