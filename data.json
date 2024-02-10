@@ -16,6 +16,14 @@
     "category": "Backend Developer"
   },
   {
+    "techstack": "CSS, JavaScript, Device Layout",
+    "repo": "...",
+    "thumbnail": "apm.jpg",
+    "url": "https://apm.olk1.com/",
+    "linkText": "Property Management",
+    "category": "Frontend Web Developer"
+  },
+  {
     "techstack": "JavaScript, Err Modal Feature",
     "repo": "https://github.com/colorui/colorui.github.io",
     "thumbnail": "colorui.jpg",
@@ -33,7 +41,7 @@
   },
   {
     "techstack": "Next.js, TailwindCSS, CI/CD",
-    "repo": "...",
+    "repo": "https://github.com/presetloop",
     "thumbnail": "presetloop.jpg",
     "url": "https://presetloop.com/",
     "linkText": "Preset Loop",
@@ -166,6 +174,14 @@
     "url": "https://mvm.olk1.com/",
     "linkText": "Static build params",
     "category": "Full Stack Developer"
+  },
+  {
+    "techstack": "Python, Linux",
+    "repo": "https://github.com/commandlinepy",
+    "thumbnail": "commandlinepy.jpg",
+    "url": "https://github.com/commandlinepy",
+    "linkText": "Command Line Applications",
+    "category": "Open Source Developer"
   },
   {
     "techstack": "API, React.js, TypeScript",
