@@ -21,7 +21,7 @@
     "thumbnail": "apm.jpg",
     "url": "https://apm.olk1.com/",
     "linkText": "Property Management",
-    "category": "Frontend Web Developer"
+    "category": "Frontend Developer"
   },
   {
     "techstack": "JavaScript, Err Modal Feature",
@@ -77,7 +77,7 @@
     "thumbnail": "vue-fetch-api.jpg",
     "url": "https://vue.olk1.com",
     "linkText": "Vue Fetch API",
-    "category": "Frontend Web Developer"
+    "category": "Frontend Developer"
   },
   {
     "techstack": "Node, Express, MySQL, NGINX",
@@ -357,7 +357,7 @@
     "thumbnail": "elbi.jpg",
     "url": "...",
     "linkText": "Elbi",
-    "category": "Frontend Web Developer"
+    "category": "Frontend Developer"
   },
   {
     "techstack": "CSS, JQuery",
