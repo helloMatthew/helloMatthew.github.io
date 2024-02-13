@@ -48,12 +48,12 @@
     "category": "Project Lead Developer"
   },
   {
-    "techstack": "JavaScript, CRUD, Storage",
-    "repo": "https://github.com/browsernotes/browsernotes.github.io",
-    "thumbnail": "browsernotes.jpg",
-    "url": "https://browsernotes.github.io/",
-    "linkText": "Browser Notes",
-    "category": "Open Source Developer"
+    "techstack": "Vue.js, TailwindCSS, Firebase",
+    "repo": "https://github.com/speednote/speednote.github.io",
+    "thumbnail": "speednote.jpg",
+    "url": "https://github.com/speednote/speednote.github.io",
+    "linkText": "SpeedNote",
+    "category": "Full Stack Developer"
   },
   {
     "techstack": "JavaScript, Modal Feature",
@@ -150,6 +150,14 @@
     "url": "https://mattheweq.com/alpine/",
     "linkText": "Compact UX/UI",
     "category": "Full Stack Developer"
+  },
+  {
+    "techstack": "JavaScript, CRUD, Storage",
+    "repo": "https://github.com/browsernotes/browsernotes.github.io",
+    "thumbnail": "browsernotes.jpg",
+    "url": "https://browsernotes.github.io/",
+    "linkText": "Browser Notes",
+    "category": "Open Source Developer"
   },
   {
     "techstack": "API, JavaScript",
