@@ -208,6 +208,14 @@
     "category": "Software Consultant"
   },
   {
+    "techstack": "JavaScript, TailwindCSS",
+    "repo": "https://github.com/percentagecalc/percentagecalc.github.io",
+    "thumbnail": "percentagecalc.jpg",
+    "url": "https://percentagecalc.github.io/",
+    "linkText": "Percentage Calculator+",
+    "category": "Open Source Developer"
+  },
+  {
     "techstack": "JavaScript, P5.js, Canvas",
     "repo": "https://github.com/computerartmaker/computerartmaker.github.io",
     "thumbnail": "computerartmaker.jpg",
