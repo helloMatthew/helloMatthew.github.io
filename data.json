@@ -24,7 +24,7 @@
     "category": "Frontend Developer"
   },
   {
-    "techstack": "JavaScript, Err Modal Feature",
+    "techstack": "Web Components, *Error Modal",
     "repo": "https://github.com/colorui/colorui.github.io",
     "thumbnail": "colorui.jpg",
     "url": "https://colorui.github.io/",
@@ -56,7 +56,7 @@
     "category": "Full Stack Developer"
   },
   {
-    "techstack": "JavaScript, Modal Feature",
+    "techstack": "JavaScript, *Modal",
     "repo": "https://github.com/pickviewcompare/pickviewcompare.github.io",
     "thumbnail": "pvc.jpg",
     "url": "https://pickviewcompare.github.io/",
@@ -88,7 +88,7 @@
     "category": "Project Lead Developer"
   },
   {
-    "techstack": "JavaScript, Nav Feature",
+    "techstack": "JavaScript, *Nav",
     "repo": "https://github.com/30words/30words.github.io",
     "thumbnail": "30words.jpg",
     "url": "https://30words.github.io/",
@@ -136,7 +136,7 @@
     "category": "UX/UI Developer"
   },
   {
-    "techstack": "JavaScript, Loop Feature",
+    "techstack": "JavaScript, *Loop",
     "repo": "https://github.com/matthew-via-music-player/matthew-via-music-player.github.io",
     "thumbnail": "player.jpg",
     "url": "https://matthew-via-music-player.github.io/",
@@ -200,7 +200,7 @@
     "category": "Software Consultant"
   },
   {
-    "techstack": "JavaScript, Dual View Feature",
+    "techstack": "JavaScript, *Dual View",
     "repo": "https://github.com/picviewcompare/picviewcompare.github.io",
     "thumbnail": "pic-view-compare.jpg",
     "url": "https://picviewcompare.github.io/",
@@ -256,7 +256,7 @@
     "category": "Open Source Developer"
   },
   {
-    "techstack": "JavaScript, Clipboard Feature",
+    "techstack": "JavaScript, *Clipboard",
     "repo": "https://github.com/mattheweq/swatches",
     "thumbnail": "swatches.jpg",
     "url": "https://mattheweq.com/swatches/",
@@ -264,7 +264,7 @@
     "category": "Open Source Developer"
   },
   {
-    "techstack": "CSS, Images & Favicon Feature",
+    "techstack": "CSS, Images & Favicon",
     "repo": "https://github.com/easycss",
     "thumbnail": "easycss.jpg",
     "url": "https://easycss.github.io/",
@@ -288,7 +288,7 @@
     "category": "Full Stack Developer"
   },
   {
-    "techstack": "Astro.js, Nav Feature",
+    "techstack": "Astro.js, *Nav",
     "repo": "...",
     "thumbnail": "claire.jpg",
     "url": "https://claireamblerevents.co.uk/",
