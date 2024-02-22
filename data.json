@@ -24,7 +24,7 @@
     "category": "Open Source Developer"
   },
   {
-    "techstack": "CSS, JavaScript, Device Layout",
+    "techstack": "CSS, JavaScript, *Device Layout",
     "repo": "...",
     "thumbnail": "apm.jpg",
     "url": "https://apm.olk1.com/",
