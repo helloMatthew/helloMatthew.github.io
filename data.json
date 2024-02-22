@@ -16,6 +16,14 @@
     "category": "Backend Developer"
   },
   {
+    "techstack": "CSS, JavaScript, *Clipboard",
+    "repo": "https://github.com/colorcopy/colorcopy.github.io",
+    "thumbnail": "colorcopy.jpg",
+    "url": "https://colorcopy.github.io/",
+    "linkText": "Colorcopy",
+    "category": "Open Source Developer"
+  },
+  {
     "techstack": "CSS, JavaScript, Device Layout",
     "repo": "...",
     "thumbnail": "apm.jpg",
