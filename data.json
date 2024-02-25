@@ -16,6 +16,14 @@
     "category": "Backend Developer"
   },
   {
+    "techstack": "PHP, JavaScript, *UXUI",
+    "repo": "https://github.com/mattheweq/letsparty",
+    "thumbnail": "letsparty.jpg",
+    "url": "https://letsparty.olk1.com",
+    "linkText": "Lets Party",
+    "category": "Full Stack Developer"
+  },
+  {
     "techstack": "CSS, JavaScript, *Clipboard",
     "repo": "https://github.com/colorcopy/colorcopy.github.io",
     "thumbnail": "colorcopy.jpg",
