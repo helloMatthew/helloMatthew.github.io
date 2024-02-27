@@ -16,6 +16,14 @@
     "category": "Backend Developer"
   },
   {
+    "techstack": "JavaScript, Python, *Command Line",
+    "repo": "https://github.com/push10x/push10x.github.io",
+    "thumbnail": "push10x.jpg",
+    "url": "https://push10x.github.io/",
+    "linkText": "Push10x",
+    "category": "Full Stack Developer"
+  },
+  {
     "techstack": "PHP, JavaScript, *UXUI",
     "repo": "https://github.com/mattheweq/letsparty",
     "thumbnail": "letsparty.jpg",
@@ -400,11 +408,11 @@
     "category": "Web Developer"
   },
   {
-    "techstack": "JavaScript, Pixel Art",
+    "techstack": "Python, JavaScript, Pixel Art",
     "repo": "https://github.com/mattheweq/blog",
     "thumbnail": "blog.jpg",
-    "url": "https://mattheweq.com/blog/",
+    "url": "https://blog.mattheweq.com",
     "linkText": "Blog",
-    "category": "Graphic Design & Branding"
+    "category": "Full Stack Developer"
   }
 ]
