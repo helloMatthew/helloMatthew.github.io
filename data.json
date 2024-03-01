@@ -104,6 +104,14 @@
     "category": "Frontend Developer"
   },
   {
+    "techstack": "JavaScript, TailwindCSS, *Clipboard",
+    "repo": "https://github.com/pickcolorfromimage/pickcolorfromimage.github.io",
+    "thumbnail": "pickcolorfromimage.jpg",
+    "url": "https://pickcolorfromimage.github.io",
+    "linkText": "Pick Color From Image",
+    "category": "Open Source Developer"
+  },
+  {
     "techstack": "Node, Express, MySQL, NGINX",
     "repo": "https://github.com/matthewviamusic",
     "thumbnail": "mvm.jpg",
