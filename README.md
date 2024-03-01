@@ -1,8 +1,8 @@
 [LIVE SITE](https://mattheweq.com/)
 
-![preview](preview.jpg)
+![preview](preview.png)
 
-### Features
+### Functionality and Features
  - Easter eggs
  - Vanilla JavaScript
  - Filter cards by tech stack or categories
