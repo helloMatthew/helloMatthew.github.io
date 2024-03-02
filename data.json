@@ -280,11 +280,11 @@
     "category": "Open Source Developer"
   },
   {
-    "techstack": "JavaScript, OOP, JSDocs",
+    "techstack": "JavaScript, TailwindCSS",
     "repo": "https://github.com/word-count/word-count.github.io",
     "thumbnail": "wordcount.jpg",
     "url": "https://word-count.github.io/",
-    "linkText": "Word Count",
+    "linkText": "Word Count V.2.0",
     "category": "Open Source Developer"
   },
   {
