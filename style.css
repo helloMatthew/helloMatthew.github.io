@@ -114,14 +114,14 @@ h1:hover{
   display: inline-block;
 }
 
-/* Developer/Designer */
+/* design developer */
 .swap-text {
   position: relative;
   display: inline-block;
 }
 
 .swap-text:hover::before {
-  content: "Designer";
+  content: "Design";
   position: absolute;
   top: 0;
   left: 0;
