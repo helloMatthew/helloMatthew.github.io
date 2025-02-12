@@ -1,13 +1,5 @@
 [
   {
-    "techstack": "API, Node, MySQL, NGINX",
-    "repo": "https://github.com/matthewviamusic/mvm-api",
-    "thumbnail": "api-node.jpg",
-    "url": "https://matthewviamusic.com/api/tracks",
-    "linkText": "MvM API",
-    "category": "Backend Developer"
-  },
-  {
     "techstack": "API, PHP, Apache",
     "repo": "...",
     "thumbnail": "api-php.jpg",
@@ -22,14 +14,6 @@
     "url": "https://letsparty.olk1.com",
     "linkText": "Lets Party",
     "category": "Full Stack Developer"
-  },
-  {
-    "techstack": "CSS, JavaScript, *Clipboard",
-    "repo": "https://github.com/colorcopy/colorcopy.github.io",
-    "thumbnail": "colorcopy.jpg",
-    "url": "https://colorcopy.github.io/",
-    "linkText": "Colorcopy",
-    "category": "Open Source Developer"
   },
   {
     "techstack": "CSS, JavaScript, *Device Layout",
@@ -103,22 +87,7 @@
     "linkText": "Vue Fetch API",
     "category": "Frontend Developer"
   },
-  {
-    "techstack": "JavaScript, TailwindCSS, *UX",
-    "repo": "https://github.com/pickcolorfromimage/pickcolorfromimage.github.io",
-    "thumbnail": "pickcolorfromimage.jpg",
-    "url": "https://pickcolorfromimage.github.io",
-    "linkText": "Pick Color From Image",
-    "category": "Open Source Developer"
-  },
-  {
-    "techstack": "Node, Express, MySQL, NGINX",
-    "repo": "https://github.com/matthewviamusic",
-    "thumbnail": "mvm.jpg",
-    "url": "https://matthewviamusic.com/",
-    "linkText": "Matthew via Music",
-    "category": "Project Lead Developer"
-  },
+
   {
     "techstack": "JavaScript, *Nav",
     "repo": "https://github.com/30words/30words.github.io",
@@ -264,14 +233,6 @@
     "category": "Open Source Developer"
   },
   {
-    "techstack": "Next.js, TypeScript, TailwindCSS",
-    "repo": "...",
-    "thumbnail": "picatso.jpg",
-    "url": "https://picatsosketch.com/",
-    "linkText": "Pet Portraits",
-    "category": "Full Stack Developer"
-  },
-  {
     "techstack": "PHP, MySQL, Apache",
     "repo": "...",
     "thumbnail": "codesearch.jpg",
@@ -403,7 +364,7 @@
     "techstack": "JavaScript, CSS",
     "repo": "...",
     "thumbnail": "elbi.jpg",
-    "url": "...",
+    "url": "https://elbi.com/",
     "linkText": "Elbi",
     "category": "Frontend Developer"
   },
