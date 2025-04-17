@@ -3,7 +3,7 @@
     "techstack": "API, PHP, Apache",
     "repo": "...",
     "thumbnail": "api-php.jpg",
-    "url": "https://mvmapi.olk1.com/albums",
+    "url": "https://ecapi.olk1.com/tracks",
     "linkText": "Bespoke API (CORS)",
     "category": "Backend Developer"
   },
@@ -32,18 +32,10 @@
     "category": "Open Source Developer"
   },
   {
-    "techstack": "CI/CD, Framer Motion, Chart.js",
-    "repo": "https://github.com/helloMatthew/astron",
-    "thumbnail": "chart.jpg",
-    "url": "https://helloMatthew.com/astron/",
-    "linkText": "Artist Dashboard",
-    "category": "Full Stack Developer"
-  },
-  {
     "techstack": "Next.js, TailwindCSS, CI/CD, PHP",
     "repo": "https://github.com/presetloop",
     "thumbnail": "presetloop.jpg",
-    "url": "https://presetloop.com/",
+    "url": "http://presetloop.github.io/",
     "linkText": "Preset Loop",
     "category": "Project Lead Developer"
   },
@@ -80,15 +72,6 @@
     "category": "Hybrid App Developer"
   },
   {
-    "techstack": "Vue.js, TailwindCSS",
-    "repo": "https://github.com/helloMatthew/vue-fetch-api",
-    "thumbnail": "vue-fetch-api.jpg",
-    "url": "https://vue.olk1.com",
-    "linkText": "Vue Fetch API",
-    "category": "Frontend Developer"
-  },
-
-  {
     "techstack": "JavaScript, *Nav",
     "repo": "https://github.com/30words/30words.github.io",
     "thumbnail": "30words.jpg",
@@ -121,35 +104,11 @@
     "category": "Open Source Developer"
   },
   {
-    "techstack": "API, JavaScript, Lazy Load",
-    "repo": "https://github.com/mvmdiscography/mvmdiscography.github.io",
-    "thumbnail": "lazy.jpg",
-    "url": "https://mvmdiscography.github.io/",
-    "linkText": "Discography",
-    "category": "Full Stack Developer"
-  },
-  {
-    "techstack": "API, JavaScript",
-    "repo": "https://github.com/helloMatthew/inline-slider",
-    "thumbnail": "inline-slider.jpg",
-    "url": "https://helloMatthew.com/inline-slider/",
-    "linkText": "Inline Slider",
-    "category": "UX/UI Developer"
-  },
-  {
     "techstack": "JavaScript, *Loop",
     "repo": "https://github.com/matthew-via-music-player/matthew-via-music-player.github.io",
     "thumbnail": "player.jpg",
     "url": "https://matthew-via-music-player.github.io/",
     "linkText": "Bespoke Music Player",
-    "category": "Full Stack Developer"
-  },
-  {
-    "techstack": "API, Alpine.js, TailwindCSS",
-    "repo": "https://github.com/helloMatthew/alpine",
-    "thumbnail": "alpine.jpg",
-    "url": "https://helloMatthew.com/alpine/",
-    "linkText": "Compact UX/UI",
     "category": "Full Stack Developer"
   },
   {
@@ -177,14 +136,6 @@
     "category": "Full Stack Developer"
   },
   {
-    "techstack": "API, Next.js, TypeScript",
-    "repo": "https://github.com/helloMatthew/m-v-m",
-    "thumbnail": "next-ts.jpg",
-    "url": "https://mvm.olk1.com/",
-    "linkText": "Static build params",
-    "category": "Full Stack Developer"
-  },
-  {
     "techstack": "Python, Linux",
     "repo": "https://github.com/commandlinepy",
     "thumbnail": "commandlinepy.jpg",
@@ -196,7 +147,7 @@
     "techstack": "API, React.js, TypeScript",
     "repo": "https://github.com/helloMatthew/responsive-sortable-data-table",
     "thumbnail": "worldcup.jpg",
-    "url": "https://helloMatthew.com/responsive-sortable-data-table/",
+    "url": "https://helloMatthew.github.io/responsive-sortable-data-table/",
     "linkText": "World Cup 2022",
     "category": "Software Consultant"
   },
@@ -228,7 +179,7 @@
     "techstack": "JavaScript, Easter Egg",
     "repo": "https://github.com/helloMatthew/password-generator",
     "thumbnail": "password-generator.jpg",
-    "url": "https://helloMatthew.com/password-generator/",
+    "url": "https://helloMatthew.github.io/password-generator/",
     "linkText": "String Generator",
     "category": "Open Source Developer"
   },
@@ -252,7 +203,7 @@
     "techstack": "JavaScript, *Clipboard",
     "repo": "https://github.com/helloMatthew/swatches",
     "thumbnail": "swatches.jpg",
-    "url": "https://helloMatthew.com/swatches/",
+    "url": "https://helloMatthew.github.io/swatches/",
     "linkText": "Swatches",
     "category": "Open Source Developer"
   },
@@ -300,7 +251,7 @@
     "techstack": "CSS Animation, SVG",
     "repo": "https://github.com/helloMatthew/giant-loading-spinner",
     "thumbnail": "loading.jpg",
-    "url": "https://helloMatthew.com/giant-loading-spinner/",
+    "url": "https://helloMatthew.github.io/giant-loading-spinner/",
     "linkText": "Giant Loading Spinner",
     "category": "Open Source Developer"
   },
@@ -308,7 +259,7 @@
     "techstack": "React.js, GSAP",
     "repo": "https://github.com/helloMatthew/page-transitions-2",
     "thumbnail": "page-trans.jpg",
-    "url": "https://helloMatthew.com/page-transitions-2/",
+    "url": "https://helloMatthew.github.io/page-transitions-2/",
     "linkText": "Page Transitions",
     "category": "Open Source Developer"
   },
@@ -316,7 +267,7 @@
     "techstack": "CSS",
     "repo": "https://github.com/helloMatthew/ui-card-elements",
     "thumbnail": "ui-cards.jpg",
-    "url": "https://helloMatthew.com/ui-card-elements/",
+    "url": "https://helloMatthew.github.io/ui-card-elements/",
     "linkText": "UI Card Elements",
     "category": "Open Source Developer"
   },
@@ -332,7 +283,7 @@
     "techstack": "JavaScript, P5.js, Canvas",
     "repo": "https://github.com/helloMatthew/flicker-error",
     "thumbnail": "flicker-error.jpg",
-    "url": "https://helloMatthew.com/flicker-error/",
+    "url": "https://helloMatthew.github.io/flicker-error/",
     "linkText": "Flicker Error",
     "category": "Graphic Design & Branding"
   },
@@ -340,7 +291,7 @@
     "techstack": "JavaScript, P5.js, Canvas",
     "repo": "https://github.com/helloMatthew/jelly-bounce",
     "thumbnail": "jelly.jpg",
-    "url": "https://helloMatthew.com/jelly-bounce/",
+    "url": "https://helloMatthew.github.io/jelly-bounce/",
     "linkText": "Jelly Bounce",
     "category": "Open Source Developer"
   },
@@ -348,7 +299,7 @@
     "techstack": "JavaScript, CSS, Canvas",
     "repo": "https://github.com/helloMatthew/glowatron",
     "thumbnail": "glowatron.jpg",
-    "url": "https://helloMatthew.com/glowatron/",
+    "url": "https://helloMatthew.github.io/glowatron/",
     "linkText": "Glowatron",
     "category": "Open Source Developer"
   },
@@ -375,13 +326,5 @@
     "url": "https://kmlofts.olk1.com/",
     "linkText": "Lofts",
     "category": "Web Developer"
-  },
-  {
-    "techstack": "Python, JavaScript, Pixel Art",
-    "repo": "https://github.com/helloMatthew/blog",
-    "thumbnail": "blog.jpg",
-    "url": "https://blog.helloMatthew.com",
-    "linkText": "Blog",
-    "category": "Full Stack Developer"
   }
 ]
