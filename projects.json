@@ -38,5 +38,13 @@
     "description": "Batch upload images and view them in grid or presentation view",
     "imageUrl": "https://dropzone.olk1.com/uploads/imagegridview.png",
     "liveUrl": "https://imagegridview.github.io/"
+  },
+  {
+    "name": "Heic Webp Converter",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/heicwebpconverter/heicwebpconverter.github.io",
+    "description": "Quickly and easily convert iphone photo files or modern web images using this handy web app.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/heicwebpconverter.png",
+    "liveUrl": "https://heicwebpconverter.github.io/"
   }
 ]
