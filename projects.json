@@ -30,5 +30,13 @@
     "description": "A web app which batch converts images in multiple zoom states as well as square, portrait and landscape orientations. ",
     "imageUrl": "https://dropzone.olk1.com/uploads/imagezoomresize.png",
     "liveUrl": "https://imagezoomresize.github.io/"
+  },
+  {
+    "name": "Image Grid View",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/imagegridview/imagegridview.github.io",
+    "description": "Batch upload images and view them in grid or presentation view",
+    "imageUrl": "https://dropzone.olk1.com/uploads/imagegridview.png",
+    "liveUrl": "https://imagegridview.github.io/"
   }
 ]
