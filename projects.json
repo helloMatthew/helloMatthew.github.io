@@ -54,5 +54,13 @@
     "description": "Use images as paint brushes to create new compositions.",
     "imageUrl": "https://dropzone.olk1.com/uploads/imagebrush.png",
     "liveUrl": "https://imagebrush.github.io/"
+  },
+  {
+    "name": "Day Planner",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/dayplanner/dayplanner.github.io",
+    "description": "Organise your days, each week in 30 minute intervals.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/dayplanner.png",
+    "liveUrl": "https://dayplanner.github.io/"
   }
 ]
