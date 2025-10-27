@@ -2,68 +2,188 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel='shortcut icon' href='https://easycss.github.io/favicon/favicon.png' type='image/x-icon' />
-  <meta property="og:title" content="Design Developer">
-  <meta property="og:description" content="Senior design developer working with JavaScript, PHP and Python.">
-  <meta property="og:image" content="https://easycss.github.io/favicon/favicon.png">
-  <title>Full Stack Creative Designer / Developer</title>
-  <script src="./tailwindcss.min.js"></script>
-  <link rel='stylesheet' href='style.css' />
+  <title>Hello Matthew - Web / Mac App Designer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+  /* Hide scrollbar for Chrome, Safari and Edge */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+  </style>
 </head>
-<body>
-<div class="fade-in mt-1 m-[1%] mb-[80px] max-w-[2000px] xl:mx-auto">
-<!--  -->
-<!--  -->
-<div class="flex justify-center my-2">
-  <input id="search-input" type="text" class="px-2 text-md font-normal placeholder:text-slate-300 outline-none" placeholder="Search Projects" autofocus>
-</div>
-<!--  -->
-<!--  -->
-  <nav class="fade-in m-2 xl:-mb-4">
-    <div class="socials w-[225px] flex justify-between md:mt-2 lg:mt-4">
-      <a href="https://hellomatthew.github.io/" target="_blank">
-        <img src="https://raw.githubusercontent.com/hellomatthew/icons-repo/main/github.svg">
-      </a>
+<body class="bg-gray-100 p-6 overflow-hidden">
 
+  <div class="max-w-7xl mx-auto h-screen overflow-y-scroll scrollbar-hide pb-36">
+    <h1 class="text-xl font-bold ml-2 mb-4 font-mono">Hi, I'm Matthew. I design products using web technology:</h1>
 
-      <a href="mailto:helloMatthew@olk1.com">
-        <img src="https://raw.githubusercontent.com/hellomatthew/icons-repo/main/email.svg">
-      </a>
-    </div>
-  </nav>
-<!--  -->
-<!--  -->
-  <div class="fade-in lg:flex lg:justify-between lg:items-end -rotate-1 -mt-1 mb-0 lg:mb-8">
-
-    <div id="welcome">
-      <h1 class="-mt-2 md:mt-1 xl:mt-2">
-        <a href="headlines.html">Hi, I'm Matthew</a>
-      </h1>
-
-      <div class="flex justify-between">
-        <h2 class="mx-0 mt-3 sm:mt-4 max-w-[700px] leading-7 text-center">A skilled Full Stack<span><a class="swap-text inline-block ml-1 w-[85px]" href="https://hellomatthew.github.io/cathedral" target="_blank">Creative</a></span> Developer with <span class="highlighted-text">over 10 years</span> commercial experience <span class="highlighted-text2">building scalable</span> web, mobile and desktop <span class="highlighted-text3">applications.</span></h2>
-      </div>
+    <!-- Search box -->
+    <div class="ml-2 mb-4">
+      <input id="searchInput" type="text" placeholder=" Search projects..." class="w-[250px] border border-gray-300 rounded p-2">
     </div>
 
-    <div id="reset-container" class="flex justify-end text-right mr-4 sm:mr-8">
-      <p id="reset" class="cursor-pointer w-fit text-sm select-none">
-        <a href="#">RESET ALL</a>
-      </p>
-    </div>
-
+    <!-- Responsive flex container for projects -->
+    <div id="projectList" class="flex flex-wrap"></div>
   </div>
-<!--  -->
-<!--  -->
-  <div id="no-search-results" class="hidden flex justify-center items-center text-center mt-[30vh]">No results. <span class="highlighted-text">Please try again.</span></div>
-<!-- ***  -->
-<!-- ***  -->
-  <div id="cards"><!-- data.json --></div>
-<!--  -->
-<!--  -->
-</div><!-- \container -->
 
-<script src="app.js"></script>
+  <script>
+  const projectList = document.getElementById('projectList');
+const searchInput = document.getElementById('searchInput');
+const placeholderImage = 'https://dropzone.olk1.com/uploads/placeholder.png';
+
+let projects = [];
+
+// =====================
+// Utility: Create icon link HTML
+// =====================
+function createIconLink(url, title, svgHtml) {
+  if (!url || url === 'https://') return '';
+  const colorClass =
+    title === 'Live Site'
+      ? 'green-600'
+      : title === 'Download'
+      ? 'blue-600'
+      : 'gray-900';
+  return `
+    <a href="${url}" target="_blank"
+      class="text-gray-700 hover:text-${colorClass} transform hover:scale-110 transition duration-200"
+      title="${title}">
+      ${svgHtml}
+    </a>`;
+}
+
+// =====================
+// Render Projects
+// =====================
+function renderProjects(filter = '') {
+  projectList.innerHTML = ''; // clear current list
+  const filteredProjects = projects.filter((project) => {
+    const searchText = filter.toLowerCase();
+    return (
+      project.name.toLowerCase().includes(searchText) ||
+      (project.description &&
+        project.description.toLowerCase().includes(searchText))
+    );
+  });
+
+  // Reverse order (latest first)
+  filteredProjects
+    .slice()
+    .reverse()
+    .forEach((project) => {
+      const cardWrapper = document.createElement('div');
+      cardWrapper.className = 'p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4';
+
+      const card = document.createElement('div');
+      card.className = 'border p-0 bg-white max-w-md w-full flex flex-col';
+
+      // Build links HTML
+      let linksHtml = '';
+      linksHtml += createIconLink(
+        project.downloadUrl,
+        'Download',
+        `
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 inline-block mt-2"
+          fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"/>
+        </svg>`
+      );
+
+      linksHtml += createIconLink(
+        project.githubUrl,
+        'GitHub',
+        `
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 inline-block mt-2 ml-4"
+          fill="currentColor" viewBox="0 0 24 24">
+          <path
+            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303
+            3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234
+            c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756
+            -1.09-.744.084-.729.084-.729 1.205.084 1.838
+            1.237 1.838 1.237 1.07 1.834 2.809
+            1.304 3.495.997.108-.775.418-1.305.762-1.605
+            -2.665-.304-5.466-1.332-5.466-5.93 0-1.31.467-2.381
+            1.235-3.221-.123-.303-.536-1.524.117-3.176
+            0 0 1.008-.322 3.3 1.23.957-.266 1.983-.399
+            3.003-.404 1.02.005 2.047.138 3.006.404
+            2.291-1.552 3.297-1.23 3.297-1.23
+            .654 1.653.242 2.874.12 3.176.77.84
+            1.233 1.911 1.233 3.221 0 4.61-2.804
+            5.625-5.475 5.921.43.371.823 1.103.823
+            2.222v3.293c0 .319.218.694.825.576C20.565
+            22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+        </svg>`
+      );
+
+      linksHtml += createIconLink(
+        project.liveUrl,
+        'Live Site',
+        `
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 inline-block pt-1"
+          fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2" d="M13 7h6m0 0v6m0-6L10 16"/>
+        </svg>`
+      );
+
+      // Build project card content
+      const cardContent = document.createElement('div');
+      cardContent.className = 'flex flex-col';
+      cardContent.innerHTML = `
+        <h2 class="font-bold text-md pl-2 mt-0 bg-[#333] text-white p-1 w-full">${project.name}</h2>
+        <p class="text-gray-700 mt-1 p-2">${project.description || ''}</p>
+        <img src="${
+          project.imageUrl && project.imageUrl !== 'https://'
+            ? project.imageUrl
+            : placeholderImage
+        }"
+          alt="${project.name}" class="p-2 mt-2 w-full h-auto">
+        <div class="mt-2 flex items-center justify-center space-x-3">${linksHtml}</div>
+      `;
+
+      card.appendChild(cardContent);
+      cardWrapper.appendChild(card);
+      projectList.appendChild(cardWrapper);
+    });
+}
+
+// =====================
+// Load projects.json
+// =====================
+async function loadProjects() {
+  try {
+    const response = await fetch('projects.json');
+    if (!response.ok) throw new Error('Failed to load projects.json');
+    projects = await response.json();
+    renderProjects();
+  } catch (error) {
+    console.error('Error loading project data:', error);
+  }
+}
+
+// =====================
+// Search Input Listener
+// =====================
+searchInput.addEventListener('input', (e) => {
+  renderProjects(e.target.value);
+});
+
+// =====================
+// Initial Load
+// =====================
+loadProjects();
+  
+  </script>
+
 </body>
 </html>

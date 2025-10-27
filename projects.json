@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Fancy Doodle",
+    "downloadUrl": "",
+    "githubUrl": "https://github.com/fancydoodle/webapp",
+    "description": "A web and Mac app for white boarding, prototyping and jammin out cool ideas. Basically, it should be the default Mac desktop. :)",
+    "imageUrl": "https://dropzone.olk1.com/uploads/fancydoodle.png",
+    "liveUrl": "https://fancydoodle.github.io/webapp/"
+  },
+  {
+    "name": "Gif Jif Maker",
+    "downloadUrl": "",
+    "githubUrl": "https://github.com/gifjifmaker/gifjifmaker.github.io",
+    "description": "A web app designed for animated gif generation. Collapsable UI and multiple features which export as a finished .gif file.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/gifjifmaker.png",
+    "liveUrl": "https://gifjifmaker.github.io/"
+  },
+  {
+    "name": "Image Crop",
+    "downloadUrl": "",
+    "githubUrl": "https://github.com/imagecrop/imagecrop.github.io",
+    "description": "A web app which helps you simply crop and resize your images.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/imagecrop.png",
+    "liveUrl": "https://imagecrop.github.io/"
+  },
+  {
+    "name": "Image Zoom Resize",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/imagezoomresize/imagezoomresize.github.io",
+    "description": "A web app which batch converts images in multiple zoom states as well as square, portrait and landscape orientations. ",
+    "imageUrl": "https://dropzone.olk1.com/uploads/imagezoomresize.png",
+    "liveUrl": "https://imagezoomresize.github.io/"
+  }
+]
