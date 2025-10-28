@@ -5,24 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello Matthew - Web / Mac App Designer</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-  /* Hide scrollbar for Chrome, Safari and Edge */
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for Firefox */
-.scrollbar-hide {
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
-}
-
-
-  </style>
 </head>
-<body class="bg-gray-100 p-6 overflow-hidden">
+<body class="bg-gray-100 p-6">
 
-  <div class="max-w-7xl mx-auto h-screen overflow-y-scroll scrollbar-hide pb-36">
+  <div class="max-w-7xl mx-auto h-screen">
     <h1 class="text-xl font-bold ml-2 mb-4 font-mono">Hi, I'm Matthew. I design products using web technology.</h1>
 
     <!-- Search box -->
@@ -31,7 +17,7 @@
     </div>
 
     <!-- Responsive flex container for projects -->
-    <div id="projectList" class="flex flex-wrap"></div>
+    <div id="projectList" class="flex flex-wrap pb-36"></div>
   </div>
 
   <script>
