@@ -3,7 +3,7 @@
     "name": "Fancy Doodle",
     "downloadUrl": "",
     "githubUrl": "https://github.com/fancydoodle/webapp",
-    "description": "A web and Mac app for white boarding, prototyping and jammin out cool ideas. Basically, it should be the default Mac desktop. :)",
+    "description": "Basically, it should be the default Mac desktop. :)",
     "imageUrl": "https://dropzone.olk1.com/uploads/fancydoodle.png",
     "liveUrl": "https://fancydoodle.github.io/webapp/"
   },
@@ -11,7 +11,7 @@
     "name": "Gif Jif Maker",
     "downloadUrl": "",
     "githubUrl": "https://github.com/gifjifmaker/gifjifmaker.github.io",
-    "description": "A web app designed for animated gif generation. Collapsable UI and multiple features which export as a finished .gif file.",
+    "description": "Animated gif generator with collapsable UI and more.",
     "imageUrl": "https://dropzone.olk1.com/uploads/gifjifmaker.png",
     "liveUrl": "https://gifjifmaker.github.io/"
   },
@@ -27,7 +27,7 @@
     "name": "Image Zoom Resize",
     "downloadUrl": "https://",
     "githubUrl": "https://github.com/imagezoomresize/imagezoomresize.github.io",
-    "description": "A web app which batch converts images in multiple zoom states as well as square, portrait and landscape orientations. ",
+    "description": "Batch convert images in multiple zoom states and orientations.",
     "imageUrl": "https://dropzone.olk1.com/uploads/imagezoomresize.png",
     "liveUrl": "https://imagezoomresize.github.io/"
   },
@@ -43,7 +43,7 @@
     "name": "Heic Webp Converter",
     "downloadUrl": "https://",
     "githubUrl": "https://github.com/heicwebpconverter/heicwebpconverter.github.io",
-    "description": "Quickly and easily convert iphone photo files or modern web images using this handy web app.",
+    "description": "Convert iphone photo files or modern web images to jpg or png.",
     "imageUrl": "https://dropzone.olk1.com/uploads/heicwebpconverter.png",
     "liveUrl": "https://heicwebpconverter.github.io/"
   },
@@ -67,7 +67,7 @@
     "name": "DragON Canvas",
     "downloadUrl": "https://",
     "githubUrl": "https://github.com/dragoncanvas/dragoncanvas.github.io",
-    "description": "A web and mac desktop app for adding, organising, collaging and exporting images at hyper speed.",
+    "description": "Add, organise, collage and export images at hyper speed.",
     "imageUrl": "https://dropzone.olk1.com/uploads/dragoncanvas.png",
     "liveUrl": "https://dragoncanvas.github.io/"
   }
