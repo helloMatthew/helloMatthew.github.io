@@ -3,7 +3,7 @@
     "name": "Fancy Doodle",
     "downloadUrl": "",
     "githubUrl": "https://github.com/fancydoodle/webapp",
-    "description": "Basically, it should be the default Mac desktop. :)",
+    "description": "Basically, it should be the default Mac desktop :)",
     "imageUrl": "https://dropzone.olk1.com/uploads/fancydoodle.png",
     "liveUrl": "https://fancydoodle.github.io/webapp/"
   },
@@ -35,7 +35,7 @@
     "name": "Image Grid View",
     "downloadUrl": "https://",
     "githubUrl": "https://github.com/imagegridview/imagegridview.github.io",
-    "description": "Batch upload images and view them in grid or presentation view",
+    "description": "Batch upload images and view them in grid or presentation view.",
     "imageUrl": "https://dropzone.olk1.com/uploads/imagegridview.png",
     "liveUrl": "https://imagegridview.github.io/"
   },
