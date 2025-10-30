@@ -70,5 +70,13 @@
     "description": "Add, organise, collage and export images at hyper speed.",
     "imageUrl": "https://dropzone.olk1.com/uploads/dragoncanvas.png",
     "liveUrl": "https://dragoncanvas.github.io/"
+  },
+  {
+    "name": "Speednote",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/SpeedNote/speednote.github.io",
+    "description": "Notes, categorised with highlighting. Import/Export for long term backup.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/speednote.png",
+    "liveUrl": "https://speednote.github.io/"
   }
 ]

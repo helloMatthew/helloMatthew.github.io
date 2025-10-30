@@ -9,7 +9,7 @@
 <body class="bg-gray-100 p-6">
 
   <div class="max-w-7xl mx-auto h-screen">
-    <h1 class="text-xl font-bold ml-2 mb-4 font-mono">Hi, I'm Matthew. I design products using web technology.</h1>
+    <h1 class="text-xl font-normal ml-2 mb-4 font-mono">Hi, I'm Matthew. I <span class="font-bold">design</span> products using web technology.</h1>
 
     <!-- Search box -->
     <div class="ml-2 mb-4">
@@ -40,7 +40,7 @@ function createIconLink(url, title, svgHtml) {
       : 'white';
   return `
     <a href="${url}" target="_blank"
-      class="text-gray-700 hover:text-${colorClass} transform hover:scale-110 transition duration-200"
+      class="text-gray-600 hover:text-${colorClass} transform hover:scale-110 transition duration-200"
       title="${title}">
       ${svgHtml}
     </a>`;
@@ -122,7 +122,7 @@ function renderProjects(filter = '') {
 
       // Build project card content
       const cardContent = document.createElement('div');
-      cardContent.className = 'bg-[#111] text-white rounded-xl flex flex-col';
+      cardContent.className = 'bg-[#111] rounded-xl flex flex-col';
 
       const validImage = project.imageUrl && project.imageUrl !== 'https://' 
         ? project.imageUrl 
@@ -132,8 +132,7 @@ function renderProjects(filter = '') {
         <img 
           src="${validImage}" 
           alt="${project.name}" 
-          class="p-2 mt-o w-full h-auto rounded transition hover:opacity-90"
-        >
+          class="p-2 mt-0 w-full h-auto rounded transition-all hover:brightness-110">
       `;
 
       const clickableImage = (project.liveUrl && project.liveUrl !== 'https://')
@@ -141,12 +140,18 @@ function renderProjects(filter = '') {
         : imageElement;
 
       cardContent.innerHTML = `
-        <h2 class="font-bold text-md p-1 pl-3 mt-0 bg-[#222] text-white w-full">
+        <h2 class="font-bold font-mono tracking-widest text-md p-1 pl-3 mt-0 bg-[#222] text-white w-full">
           ${project.name}
         </h2>
-        <p class="tracking-wide text-black bg-white mx-2 mt-2 p-2">${project.description || ''}</p>
-        ${clickableImage}
-        <div class="mb-2 -mt-2.5 flex items-center justify-center space-x-3">
+        <p class="tracking-wide text-black bg-white mx-0 mb-0 p-2">
+          ${project.description || ''}
+        </p>
+
+        <p class="p-8 hover:p-0 transition-all duration-300 ease-in-out bg-gray-100" title="${project.name} -> CLICK TO VIEW LIVE">
+          ${clickableImage}
+        </p>
+
+        <div class="bg-[#111] mb-2 flex items-center justify-center space-x-3">
           ${linksHtml}
         </div>
       `;
