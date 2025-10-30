@@ -78,5 +78,21 @@
     "description": "Notes, categorised with highlighting. Import/Export for long term backup.",
     "imageUrl": "https://dropzone.olk1.com/uploads/speednote.png",
     "liveUrl": "https://speednote.github.io/"
+  },
+  {
+    "name": "SMASHnotes",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/smashnotes/smashnotes.github.io",
+    "description": "A freeform text canvas with draggable positioning.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/smashnotes.png",
+    "liveUrl": "https://smashnotes.github.io/"
+  },
+  {
+    "name": "ColorUI",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/colorui/colorui.github.io",
+    "description": "Indispensable when working on UI's colorways and branding.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/colorui.jpg",
+    "liveUrl": "https://colorui.github.io/"
   }
 ]
