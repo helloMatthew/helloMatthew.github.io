@@ -102,5 +102,13 @@
     "description": "Play tracks in order or reverse order, with simple keyboard shortcuts.",
     "imageUrl": "https://dropzone.olk1.com/uploads/trans.png",
     "liveUrl": "https://musicloop.github.io/"
+  },
+  {
+    "name": "Convert2Mov",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/convert2mov/convert2mov.github.io",
+    "description": "Combine images, .gifs or .mov files with MP3s, effortlessly for social media video posts.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/convert2mov.png",
+    "liveUrl": "https://convert2mov.github.io"
   }
 ]
