@@ -110,5 +110,13 @@
     "description": "Combine images, .gifs or .mov files with MP3s, effortlessly for social media video posts.",
     "imageUrl": "https://dropzone.olk1.com/uploads/convert2mov.png",
     "liveUrl": "https://convert2mov.github.io"
+  },
+  {
+    "name": "MP3 Glue",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/mp3glue/mp3glue.github.io",
+    "description": "Combine multiple MP3 files together into a single MP3 file, with automated tracklist and timecode output.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/mp3glue-app-icon.png",
+    "liveUrl": "https://mp3glue.github.io/"
   }
 ]
