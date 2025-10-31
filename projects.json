@@ -71,7 +71,7 @@
     "imageUrl": "https://dropzone.olk1.com/uploads/heicwebpconverter.png",
     "liveUrl": "https://heicwebpconverter.github.io/"
   },
-   {
+  {
     "name": "Image Crop",
     "downloadUrl": "",
     "githubUrl": "https://github.com/imagecrop/imagecrop.github.io",
@@ -94,5 +94,13 @@
     "description": "Notes, categorised with highlighting. Import/Export for long term backup.",
     "imageUrl": "https://dropzone.olk1.com/uploads/speednote.png",
     "liveUrl": "https://speednote.github.io/"
+  },
+  {
+    "name": "Music Loop",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/musicloop/musicloop.github.io",
+    "description": "Play tracks in order or reverse order, with simple keyboard shortcuts.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/trans.png",
+    "liveUrl": "https://musicloop.github.io/"
   }
 ]
