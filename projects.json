@@ -118,5 +118,13 @@
     "description": "Combine MP3 files into a single MP3 file, with tracklist and timecode.",
     "imageUrl": "https://dropzone.olk1.com/uploads/mp3glue-app-icon.png",
     "liveUrl": "https://mp3glue.github.io/"
+  },
+  {
+    "name": "Social Filter",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/Socialfilter/socialfilter.github.io",
+    "description": "Share your photo and image editing style presets with others.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/socialfilter.png",
+    "liveUrl": "https://socialfilter.github.io"
   }
 ]
