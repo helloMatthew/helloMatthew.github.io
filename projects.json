@@ -115,7 +115,7 @@
     "name": "MP3 Glue",
     "downloadUrl": "https://",
     "githubUrl": "https://github.com/mp3glue/mp3glue.github.io",
-    "description": "Combine MP3 files into a single MP3 file, with tracklist and timecode.",
+    "description": "Combine multiple MP3 files into a single WAV with tracklist / timecode.",
     "imageUrl": "https://dropzone.olk1.com/uploads/mp3glue-app-icon.png",
     "liveUrl": "https://mp3glue.github.io/"
   },
