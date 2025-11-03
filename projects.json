@@ -1,5 +1,13 @@
 [
   {
+    "name": "Pic View Compare",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/picviewcompare/picviewcompare.github.io",
+    "description": "Compare images side by side in presentation format.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/picviewcomapre.png",
+    "liveUrl": "https://picviewcompare.github.io/"
+  },
+  {
     "name": "Image Zoom Resize",
     "downloadUrl": "https://",
     "githubUrl": "https://github.com/imagezoomresize/imagezoomresize.github.io",
@@ -126,14 +134,6 @@
     "description": "Share your photo and image editing style presets with others.",
     "imageUrl": "https://dropzone.olk1.com/uploads/socialfilter.png",
     "liveUrl": "https://socialfilter.github.io"
-  },
-  {
-    "name": "Pic View Compare",
-    "downloadUrl": "https://",
-    "githubUrl": "https://github.com/picviewcompare/picviewcompare.github.io",
-    "description": "Compare images side by side in presentation format.",
-    "imageUrl": "https://dropzone.olk1.com/uploads/picviewcomapre.png",
-    "liveUrl": "https://picviewcompare.github.io/"
   },
   {
     "name": "Track Slice",
