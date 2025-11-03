@@ -126,5 +126,21 @@
     "description": "Share your photo and image editing style presets with others.",
     "imageUrl": "https://dropzone.olk1.com/uploads/socialfilter.png",
     "liveUrl": "https://socialfilter.github.io"
+  },
+  {
+    "name": "Pic View Compare",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/picviewcompare/picviewcompare.github.io",
+    "description": "Compare images side by side in presentation format.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/picviewcomapre.png",
+    "liveUrl": "https://picviewcompare.github.io/"
+  },
+  {
+    "name": "Track Slice",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/trackslice/trackslice.github.io",
+    "description": "Effortlessly edit mp3 or wav audio and create a new clip.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/trackslice.jpg",
+    "liveUrl": "https://trackslice.github.io/"
   }
 ]
