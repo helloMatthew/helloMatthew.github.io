@@ -142,5 +142,13 @@
     "description": "Effortlessly edit mp3 or wav audio and create a new clip.",
     "imageUrl": "https://dropzone.olk1.com/uploads/trackslice.jpg",
     "liveUrl": "https://trackslice.github.io/"
+  },
+  {
+    "name": "Image Text Shape",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/imagetextshape/imagetextshape.github.io",
+    "description": "Graphic Design and Typography made simple. Use right-click menus for advanced tools.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/imagetextshape.png",
+    "liveUrl": "https://imagetextshape.github.io/"
   }
 ]
