@@ -1,0 +1,42 @@
+html,body{
+  overflow:hidden;
+  margin:0;
+	background-color: #00000F;
+}
+.back{
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  animation: blink 5s infinite;
+}
+@keyframes blink {
+  0%{
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+a{
+  display: block;
+  color: #ccc;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+@media screen and (min-width: 768px){
+  .back{
+    right: 6px;
+  }
+  a{
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,22 @@
+body{
+  background: #000;
+  margin: 0;
+  overflow: hidden;
+}
+#canvas {
+  display: flex;
+  height:100vh;
+  justify-content:center;
+  align-items:center
+}
+canvas{
+  max-width:90%;
+  width:1140px;
+  height:auto
+}
+a{
+  color: white;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}

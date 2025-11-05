@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='shortcut icon' href='../favicon.png' type='image/x-icon' />
+  <title>Hello Matthew</title>
+  <script src="../tailwindcss.min.js"></script>
+<style>
+body {
+  overflow: hidden;
+  user-select: none;
+  height: 100vh;
+  padding: 0 4% 80px;
+  font-family: serif;
+  background: #f0f0f0;
+  
+  background-image: 
+    radial-gradient(circle, #ddd 0%, transparent 1.5%),
+    /* ^^^ increase percentage for dots */
+    linear-gradient(#ddf0f3 1px, transparent 1px),
+    linear-gradient(90deg, #ddf0f3 1px, transparent 1px);
+
+  background-size: 
+    20px 20px,
+    100% 20px,
+    20px 100%;
+  background-position:
+    0 0,
+    0 0,
+    0 0;
+}
+.fade-in {
+  opacity: 0;
+  animation: fade 1s ease-in forwards;
+}
+
+  @keyframes fade {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+
+#headlines{
+  transition: all .5s ease-out;
+}
+.text {
+  position: relative;
+  z-index: 5;
+  rotate: 30deg;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #010001;
+  padding: 5px 0;
+  transition: all .5s ease-out;
+}
+.text::before {
+  transition: all .8s ease-out;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+  transform: rotate(310deg); 
+  height: 12px;
+}
+.text::after {
+  transition: all .5s ease-out;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -5;
+  transform: rotate(170deg); 
+  height: 1px;
+  /* -70deg also looks good  */
+}
+.lemon::before {
+  background: #f64056;
+}
+.lemon::after{
+  background: #f36c62;
+}
+ 
+  @media (min-width: 768px) {
+    .text {
+      font-size: 1.6rem;
+      line-height: 1.9rem;
+    }
+  }
+
+  /* @media (min-width: 1024px) {
+    .text {
+      font-size: 2rem;
+      line-height: 2.3rem;
+    }
+  } */
+
+.animatedText {
+  animation: ease-in-out changeSize 60s 3s;
+}
+@keyframes changeSize {
+  0% {
+    rotate: 31deg;
+    scale: 1;
+    animation: ease-in;
+  }
+  10% {
+    rotate: -100deg;
+    scale: 1.2;
+  }
+  20% {
+    rotate: 135deg;
+    scale: 1.4;
+  }
+  30% {
+    rotate: -170deg;
+    scale: 1.6;
+  }
+  40% {
+    rotate: 210deg;
+    scale: 1.8;
+  }
+  50% {
+    rotate: 270deg;
+    scale: 1.6;
+  }
+  60% {
+    rotate: -310deg;
+    scale: 1.4;
+  }
+  70% {
+    rotate: 360deg;
+    scale: 1.2;
+  }
+  80% {
+    rotate: 310deg;
+    scale: 1.1;
+  }
+  90% {
+    rotate: 30deg;
+    scale: 1;
+  }
+  91% {
+    rotate: 30deg;
+    scale: 1;
+  }
+  92% {
+    rotate: 30deg;
+    scale: 1;
+  }
+  93% {
+    rotate: 30deg;
+    scale: 1;
+  }
+  94% {
+    rotate: 30deg;
+    scale: 1;
+  }
+  95% {
+    rotate: 30deg;
+    scale: 1;
+  }
+  96% {
+    rotate: 30deg;
+    scale: 1;
+  }
+  97% {
+    rotate: 30deg;
+    scale: 1;
+  }
+  98% {
+    rotate: 30deg;
+    scale: 1;
+  }
+  99% {
+    rotate: 30deg;
+    scale: 1;
+  }
+  100% {
+    rotate: 30deg;
+    scale: 1;
+    animation: ease-out;
+  }
+}
+
+</style>
+</head>
+<body class="fade-in">
+  <div class="flex justify-center w-full">
+    <a href="/" class="my-8 block p-1 transform transition-p duration-500 hover:px-8 ease-out hover:rounded-md text-white bg-black z-10 relative">BACK</a>
+  </div>
+
+  <div id="headlines" class="max-w-[1200px] mx-auto -mt-4 md:mt-16"></div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+
+  fetch('headlines.json')
+    .then(response => response.json())
+    .then(data => {
+      
+      const headlines = document.getElementById('headlines');
+      
+      const htmlContent = data.map((x, i) => (
+        `<p class="text lemon animatedText">${x.headline}</p>`
+      )).join('');
+
+      headlines.innerHTML = htmlContent;
+
+
+    })
+    .catch(error => console.error('Error fetching data:', error));
+});
+
+function resetElements(selector, operation, timeout) {
+  setTimeout(() => {
+    let elements = document.querySelectorAll(selector);
+    [...elements].forEach(element => {
+      operation(element);
+    });
+  }, timeout);
+}
+
+resetElements('.text', element => {
+  element.classList.remove('lemon');
+}, 57000);
+resetElements('.text', element => {
+  element.style.transform = "rotate(-30deg)";
+}, 58000);
+resetElements('#headlines', element => {
+  element.style.marginTop = 0;
+}, 59000);
+resetElements('.text', element => {
+  element.style.opacity = "0";
+}, 60000);
+resetElements('.text', element => {
+  element.style.textAlign = "left";
+  element.style.opacity = "1";
+}, 61000);
+
+
+</script>
+</body>
+</html>
