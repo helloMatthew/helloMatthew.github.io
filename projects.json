@@ -1,5 +1,21 @@
 [
    {
+    "name": "Placeholder Image",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/placeholder-image-generator/placeholder-image-generator.github.io/",
+    "description": "Create images with background colour, optional text / overlays",
+    "imageUrl": "https://dropzone.olk1.com/uploads/placeholder-image-generator.png",
+    "liveUrl": "https://placeholder-image-generator.github.io/"
+  },
+   {
+    "name": "Responsive Viewer",
+    "downloadUrl": "https://",
+    "githubUrl": "https://github.com/responsive-screen-viewer/responsive-screen-viewer.github.io",
+    "description": "View common device screen sizes in one scrollable window.",
+    "imageUrl": "https://dropzone.olk1.com/uploads/viewport.png",
+    "liveUrl": "https://responsive-screen-viewer.github.io/"
+  },
+   {
     "name": "Image Text Shape",
     "downloadUrl": "https://",
     "githubUrl": "https://github.com/imagetextshape/imagetextshape.github.io",
@@ -80,7 +96,7 @@
     "liveUrl": "https://imagegridview.github.io/"
   },
   {
-    "name": "Heic Webp Converter",
+    "name": "Heic Converter",
     "downloadUrl": "https://",
     "githubUrl": "https://github.com/heicwebpconverter/heicwebpconverter.github.io",
     "description": "Convert iphone photo files or modern web images to jpg or png.",
